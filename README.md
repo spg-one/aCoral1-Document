@@ -23,7 +23,7 @@
 以上所有内容，都可以在对应名字的目录下面找到学习文档。
 
 # 3. Latex
-学习路径中的所有文档均使用[UESTC论文模板](https://github.com/x-magus/ThesisUESTC)进行编写。详情请查看
+学习路径中的所有文档均使用[UESTC论文模板](https://github.com/x-magus/ThesisUESTC)进行编写。详情请查看[README_latex](https://github.com/spg-one/aCoral1-Document/blob/master/README_latex.md)
 
 
 # 4. Support
