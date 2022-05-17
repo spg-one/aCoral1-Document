@@ -22,7 +22,11 @@
 
 以上所有内容，都可以在对应名字的目录下面找到学习文档。
 
-# 3. Support
+# 3. Latex
+学习路径中的所有文档均使用[UESTC论文模板](https://github.com/x-magus/ThesisUESTC)进行编写。详情请查看
+
+
+# 4. Support
 
 You can get supportwith the following methods:
 * Send email to SPGGOGOGO@outlook.com with a clear description of your problem and your setup

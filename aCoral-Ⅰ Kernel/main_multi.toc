@@ -1,8 +1,6 @@
  \cftsetpnumwidth {\widthof {1}-1pt} 
  \cftsetpnumwidth {\widthof {1}-1pt} 
  \cftsetpnumwidth {\widthof {2}-1pt} 
- \cftsetpnumwidth {\widthof {3}-1pt} 
- \cftsetpnumwidth {\widthof {4}-1pt} 
  \cftsetpnumwidth {\widthof {1}-1pt} 
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {第一章}绪\hspace {6pt}论}{1}{chapter.1}%
