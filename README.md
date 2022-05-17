@@ -19,3 +19,9 @@
 最后，对于开发者，还需要学习如何来使用、开发aCoral操作系统，这部分内容可以在[aCoral-Ⅰ Dev](https://github.com/spg-one/aCoral1-Document/tree/master/aCoral-%E2%85%A0%20Dev)找到。
 
 以上所有内容，都可以在对应名字的目录下面找到学习文档。
+
+# 3. Support
+
+You can get support from Livox with the following methods:
+* Send email to SPGGOGOGO@outlook.com with a clear description of your problem and your setup
+* Github Issues
