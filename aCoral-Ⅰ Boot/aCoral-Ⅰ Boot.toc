@@ -1,0 +1,10 @@
+ \cftsetpnumwidth {\widthof {1}-1pt} 
+ \cftsetpnumwidth {\widthof {1}-1pt} 
+ \cftsetpnumwidth {\widthof {2}-1pt} 
+ \cftsetpnumwidth {\widthof {1}-1pt} 
+\setcounter {tocdepth}{2}
+\contentsline {chapter}{\numberline {第一章}Bootloader}{1}{chapter.1}%
+ \cftsetpnumwidth {\widthof {2}-1pt} 
+\contentsline {chapter}{\numberline {第二章}链接脚本}{2}{chapter.2}%
+ \cftsetpnumwidth {\widthof {3}-1pt} 
+\contentsline {chapter}{\numberline {第三章}aCoral启动}{3}{chapter.3}%

@@ -1,0 +1,14 @@
+ \cftsetpnumwidth {\widthof {1}-1pt} 
+ \cftsetpnumwidth {\widthof {1}-1pt} 
+ \cftsetpnumwidth {\widthof {2}-1pt} 
+ \cftsetpnumwidth {\widthof {1}-1pt} 
+\setcounter {tocdepth}{2}
+\contentsline {chapter}{\numberline {第一章}概述}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}珊瑚（aCoral）简介}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}项目成员}{1}{section.1.2}%
+ \cftsetpnumwidth {\widthof {2}-1pt} 
+\contentsline {chapter}{\numberline {第二章}aCoral结构}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}aCoral系统结构}{2}{section.2.1}%
+\contentsline {section}{\numberline {2.2}aCoral文件结构}{2}{section.2.2}%
+ \cftsetpnumwidth {\widthof {3}-1pt} 
+\contentsline {chapter}{\numberline {第三章}相关资料}{3}{chapter.3}%
