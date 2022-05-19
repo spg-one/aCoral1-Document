@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.5.14)  18 MAY 2022 20:18
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.5.14)  19 MAY 2022 15:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1368,17 +1368,14 @@ Chapter 第五章.
 ) [5
 
 ] (aCoral-Ⅰ Kernel.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `"aCoral-Ⅰ Kernel".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 26294 strings out of 410967
- 499561 string characters out of 2828016
- 915286 words of memory out of 3000000
- 46541 multiletter control sequences out of 15000+600000
+ 26292 strings out of 410967
+ 499537 string characters out of 2828016
+ 911286 words of memory out of 3000000
+ 46539 multiletter control sequences out of 15000+600000
  495656 words of font info for 114 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  106i,11n,105p,1217b,355s stack positions out of 10000i,1000n,20000p,200000b,80000s

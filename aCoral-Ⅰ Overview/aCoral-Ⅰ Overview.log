@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.5.14)  18 MAY 2022 20:58
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.5.14)  19 MAY 2022 20:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1149,7 +1149,11 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 764
 \openout4 = `accomplish.aux'.
 
 \c@theorem=\count381
-) (aCoral-Ⅰ Overview.aux)
+)
+(C:\Users\SPGGO\AppData\Roaming\MiKTeX\tex/latex/placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(aCoral-Ⅰ Overview.aux)
 \openout1 = `"aCoral-Ⅰ Overview.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -1163,8 +1167,7 @@ LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
 6.
-
-(C:\Program Files\MiKTeX\tex/latex/base\ts1cmr.fd
+ (C:\Program Files\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 16.
@@ -1353,23 +1356,25 @@ Chapter 第一章.
 
 ]
 Chapter 第二章.
-) (chapter/c3_realatedDoc.tex [2
+File: ./pic//aCoral系统结构.png Graphic file (type bmp)
+<./pic//aCoral系统结构.png>
+[2
 
-]
+]) (chapter/c3_realatedDoc.tex [3]
 Chapter 第三章.
-) [3
+) [4
 
 ] (aCoral-Ⅰ Overview.aux)
 Package rerunfilecheck Info: File `"aCoral-Ⅰ Overview".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 26368 strings out of 410967
- 504140 string characters out of 2828016
- 914297 words of memory out of 3000000
- 46619 multiletter control sequences out of 15000+600000
+ 26463 strings out of 410967
+ 508251 string characters out of 2828016
+ 920549 words of memory out of 3000000
+ 46710 multiletter control sequences out of 15000+600000
  495672 words of font info for 116 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 106i,11n,105p,1221b,355s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 106i,11n,105p,1221b,478s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on aCoral-Ⅰ Overview.pdf (6 pages).
+Output written on aCoral-Ⅰ Overview.pdf (7 pages).
