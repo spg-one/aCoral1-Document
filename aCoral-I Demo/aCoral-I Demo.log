@@ -1,13 +1,13 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.5.14)  18 MAY 2022 22:04
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.5.14)  23 MAY 2022 15:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/SPGGO/Documents/aCoral/aCoral-ⅠDocument/aCoral-Ⅰ Peripheral/aCoral-
-Ⅰ Peripheral.tex"
+**"c:/Users/SPGGO/Documents/aCoral/aCoral-I Document/aCoral-I Demo/aCoral-I Dem
+o.tex"
 
-(c:/Users/SPGGO/Documents/aCoral/aCoral-ⅠDocument/aCoral-Ⅰ Peripheral/aCoral-Ⅰ 
-Peripheral.tex
+(c:/Users/SPGGO/Documents/aCoral/aCoral-I Document/aCoral-I Demo/aCoral-I Demo.
+tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (thesis-uestc.cls
 Document Class: thesis-uestc 
@@ -1149,8 +1149,8 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 764
 \openout4 = `accomplish.aux'.
 
 \c@theorem=\count381
-) (aCoral-Ⅰ Peripheral.aux)
-\openout1 = `"aCoral-Ⅰ Peripheral.aux"'.
+) (aCoral-I Demo.aux)
+\openout1 = `"aCoral-I Demo.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
@@ -1205,9 +1205,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 16.
 LaTeX Info: Redefining \pageref on input line 16.
 LaTeX Info: Redefining \nameref on input line 16.
- (aCoral-Ⅰ Peripheral.out) (aCoral-Ⅰ Peripheral.out)
+ (aCoral-I Demo.out) (aCoral-I Demo.out)
 \@outlinefile=\write5
-\openout5 = `"aCoral-Ⅰ Peripheral.out"'.
+\openout5 = `"aCoral-I Demo.out"'.
 
 Package newfloat Info: `float' package detected.
 
@@ -1331,7 +1331,7 @@ lable
 t line 27.
  [1
 
-] (aCoral-Ⅰ Peripheral.toc
+] (aCoral-I Demo.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 6.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1340,44 +1340,28 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 6.
 )
 \tf@toc=\write6
-\openout6 = `"aCoral-Ⅰ Peripheral.toc"'.
+\openout6 = `"aCoral-I Demo.toc"'.
 
-
-(chapter/c1_overview.tex [2
+ (chapter/c1_overview.tex
+[2
 
 ]
 Chapter 第一章.
-) (chapter/c2_driver.tex [1
+) [1
 
 
 
-]
-Chapter 第二章.
-) (chapter/c3_fileSystem.tex [2
-
-]
-Chapter 第三章.
-) (chapter/c4_GUI.tex [3
-
-]
-Chapter 第四章.
-) (chapter/c5_Net.tex [4
-
-]
-Chapter 第五章.
-) [5
-
-] (aCoral-Ⅰ Peripheral.aux)
-Package rerunfilecheck Info: File `"aCoral-Ⅰ Peripheral".out' has not changed.
+] (aCoral-I Demo.aux)
+Package rerunfilecheck Info: File `"aCoral-I Demo".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 26292 strings out of 410967
- 499462 string characters out of 2828016
- 911316 words of memory out of 3000000
- 46539 multiletter control sequences out of 15000+600000
+ 26268 strings out of 410967
+ 498815 string characters out of 2828016
+ 910270 words of memory out of 3000000
+ 46527 multiletter control sequences out of 15000+600000
  495656 words of font info for 114 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 106i,11n,105p,1225b,355s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 106i,11n,105p,1214b,355s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on aCoral-Ⅰ Peripheral.pdf (8 pages).
+Output written on aCoral-I Demo.pdf (4 pages).

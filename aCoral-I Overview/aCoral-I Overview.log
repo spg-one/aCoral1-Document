@@ -1,13 +1,13 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.5.14)  18 MAY 2022 22:03
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.5.14)  23 MAY 2022 15:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/SPGGO/Documents/aCoral/aCoral-ⅠDocument/aCoral-Ⅰ Demo/aCoral-Ⅰ Demo
-.tex"
+**"c:/Users/SPGGO/Documents/aCoral/aCoral-I Document/aCoral-I Overview/aCoral-I
+ Overview.tex"
 
-(c:/Users/SPGGO/Documents/aCoral/aCoral-ⅠDocument/aCoral-Ⅰ Demo/aCoral-Ⅰ Demo.t
-ex
+(c:/Users/SPGGO/Documents/aCoral/aCoral-I Document/aCoral-I Overview/aCoral-I O
+verview.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (thesis-uestc.cls
 Document Class: thesis-uestc 
@@ -1149,8 +1149,12 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 764
 \openout4 = `accomplish.aux'.
 
 \c@theorem=\count381
-) (aCoral-Ⅰ Demo.aux)
-\openout1 = `"aCoral-Ⅰ Demo.aux"'.
+)
+(C:\Users\SPGGO\AppData\Roaming\MiKTeX\tex/latex/placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(aCoral-I Overview.aux)
+\openout1 = `"aCoral-I Overview.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
@@ -1163,8 +1167,7 @@ LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
 6.
-
-(C:\Program Files\MiKTeX\tex/latex/base\ts1cmr.fd
+ (C:\Program Files\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 16.
@@ -1205,9 +1208,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 16.
 LaTeX Info: Redefining \pageref on input line 16.
 LaTeX Info: Redefining \nameref on input line 16.
- (aCoral-Ⅰ Demo.out) (aCoral-Ⅰ Demo.out)
+ (aCoral-I Overview.out) (aCoral-I Overview.out)
 \@outlinefile=\write5
-\openout5 = `"aCoral-Ⅰ Demo.out"'.
+\openout5 = `"aCoral-I Overview.out"'.
 
 Package newfloat Info: `float' package detected.
 
@@ -1331,7 +1334,7 @@ lable
 t line 27.
  [1
 
-] (aCoral-Ⅰ Demo.toc
+] (aCoral-I Overview.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 6.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1340,28 +1343,38 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 6.
 )
 \tf@toc=\write6
-\openout6 = `"aCoral-Ⅰ Demo.toc"'.
+\openout6 = `"aCoral-I Overview.toc"'.
 
- (chapter/c1_overview.tex
-[2
+
+(chapter/c1_overview.tex [2
 
 ]
 Chapter 第一章.
-) [1
+) (chapter/c2_structure.tex [1
 
 
 
-] (aCoral-Ⅰ Demo.aux)
-Package rerunfilecheck Info: File `"aCoral-Ⅰ Demo".out' has not changed.
+]
+Chapter 第二章.
+File: ./pic//aCoral系统结构.png Graphic file (type bmp)
+<./pic//aCoral系统结构.png>
+[2
+
+]) (chapter/c3_realatedDoc.tex [3]
+Chapter 第三章.
+) [4
+
+] (aCoral-I Overview.aux)
+Package rerunfilecheck Info: File `"aCoral-I Overview".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 26268 strings out of 410967
- 498812 string characters out of 2828016
- 910273 words of memory out of 3000000
- 46527 multiletter control sequences out of 15000+600000
- 495656 words of font info for 114 fonts, out of 8000000 for 9000
+ 26463 strings out of 410967
+ 508254 string characters out of 2828016
+ 920549 words of memory out of 3000000
+ 46710 multiletter control sequences out of 15000+600000
+ 495672 words of font info for 116 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 106i,11n,105p,1213b,355s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 106i,11n,105p,1222b,478s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on aCoral-Ⅰ Demo.pdf (4 pages).
+Output written on aCoral-I Overview.pdf (7 pages).
