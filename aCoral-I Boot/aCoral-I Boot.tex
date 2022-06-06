@@ -12,6 +12,31 @@
 
 % require all the usepackages here
 % \usepackage{algorithm2e}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{fontspec}
+\usepackage{caption}
+
+
+
+\lstset{
+    basicstyle=\small, 
+    breaklines,                                 % 自动将长的代码行换行排版
+    extendedchars=false,                        % 解决代码跨页时，章节标题，页眉等汉字不显示的问题
+    backgroundcolor=\color[rgb]{0.96,0.96,0.96},% 背景颜色
+    keywordstyle=\color{blue}\bfseries,         % 关键字颜色
+    identifierstyle=\color{black},              % 普通标识符颜色
+    commentstyle=\color[rgb]{0,0.6,0},          % 注释颜色
+    stringstyle=\color[rgb]{0.58,0,0.82},       % 字符串颜色
+    showstringspaces=false,                     % 不显示字符串内的空格
+    numbers=left,                               % 显示行号
+    captionpos=t,                               % title在上方(在bottom即为b)
+    frame=single,                               % 设置代码框形式
+    rulecolor=\color[rgb]{0.8,0.8,0.8},         % 设置代码框颜色
+}  
+
+
+
 
 \begin{document}
 
@@ -28,9 +53,8 @@
 
 % thesis contents
 \input{chapter/c1_bootloader.tex}
-\input{chapter/c2_linkScript.tex}
-\input{chapter/c3_bootACoral.tex}
-
+\input{chapter/c2_bootACoral.tex}
+\input{chapter/c3_linkScript.tex}
 
 
 \end{document}
