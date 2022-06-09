@@ -11,18 +11,24 @@
  \cftsetpnumwidth {\widthof {4}-1pt} 
  \cftsetpnumwidth {\widthof {5}-1pt} 
 \contentsline {chapter}{\numberline {第二章}aCoral启动}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}启动-第一阶段}{5}{section.2.1}%
  \cftsetpnumwidth {\widthof {6}-1pt} 
-\contentsline {section}{\numberline {2.1}禁用看门狗}{6}{section.2.1}%
-\contentsline {section}{\numberline {2.2}关中断}{6}{section.2.2}%
-\contentsline {section}{\numberline {2.3}时钟初始化}{6}{section.2.3}%
+\contentsline {subsection}{\numberline {2.1.1}禁用看门狗}{6}{subsection.2.1.1}%
  \cftsetpnumwidth {\widthof {7}-1pt} 
-\contentsline {section}{\numberline {2.4}存储空间初始化}{7}{section.2.4}%
+\contentsline {subsection}{\numberline {2.1.2}关中断}{7}{subsection.2.1.2}%
  \cftsetpnumwidth {\widthof {8}-1pt} 
-\contentsline {section}{\numberline {2.5}栈初始化}{8}{section.2.5}%
+\contentsline {section}{\numberline {2.2}时钟初始化}{8}{section.2.2}%
  \cftsetpnumwidth {\widthof {9}-1pt} 
-\contentsline {section}{\numberline {2.6}自我拷贝（loader）}{9}{section.2.6}%
-\contentsline {section}{\numberline {2.7}bss段清零}{9}{section.2.7}%
  \cftsetpnumwidth {\widthof {10}-1pt} 
-\contentsline {section}{\numberline {2.8}跳转至下一阶段}{10}{section.2.8}%
+\contentsline {subsection}{\numberline {2.2.1}存储空间初始化}{10}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}栈初始化}{10}{subsection.2.2.2}%
  \cftsetpnumwidth {\widthof {11}-1pt} 
-\contentsline {chapter}{\numberline {第三章}链接脚本}{11}{chapter.3}%
+ \cftsetpnumwidth {\widthof {12}-1pt} 
+\contentsline {subsection}{\numberline {2.2.3}自我拷贝（loader）}{12}{subsection.2.2.3}%
+ \cftsetpnumwidth {\widthof {13}-1pt} 
+\contentsline {subsection}{\numberline {2.2.4}bss段清零}{13}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}跳转至下一阶段}{13}{subsection.2.2.5}%
+ \cftsetpnumwidth {\widthof {14}-1pt} 
+\contentsline {section}{\numberline {2.3}启动-第二阶段}{14}{section.2.3}%
+ \cftsetpnumwidth {\widthof {15}-1pt} 
+\contentsline {chapter}{\numberline {第三章}链接脚本}{15}{chapter.3}%

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.5.14)  6 JUN 2022 20:40
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.5.14)  9 JUN 2022 23:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1388,24 +1388,42 @@ File: ./pic//复位后S3C2440A的存储器映射.png Graphic file (type bmp)
 <./pic//复位后S3C2440A的存储器映射.png>
 [5
 
-] [6] [7] [8] [9]
-Missing character: There is no  in font Times New Roman/OT:script=latn;languag
-e=dflt;mapping=tex-text;!
-) (chapter/c3_linkScript.tex [10]
+]
+File: ./pic//看门狗.png Graphic file (type bmp)
+<./pic//看门狗.png>
+ [6]
+File: ./pic//中断屏蔽寄存器.png Graphic file (type bmp)
+<./pic//中断屏蔽寄存器.png>
+ [7] [8]
+File: ./pic//时钟分频控制寄存器.png Graphic file (type bmp)
+<./pic//时钟分频控制寄存器.png>
+File: ./pic//PLL 控制寄存器.png Graphic file (type bmp)
+<./pic//PLL 控制寄存器.png>
+
+Overfull \hbox (6.20741pt too wide) in paragraph at lines 110--116
+[]\TU/SimSun(0)/m/n/12 将 \TU/TimesNewRoman(0)/m/n/12 vMPLLCON = 0x1FC0021 \TU/S
+imSun(0)/m/n/12 写 入 \TU/TimesNewRoman(0)/m/n/12 oMPLLCON + CLK_CTL_BASE = 0x4C0
+00004
+ []
+
+[9] [10]
+File: ./pic//程序状态寄存器格式.png Graphic file (type bmp)
+<./pic//程序状态寄存器格式.png>
+ [11] [12] [13]) (chapter/c3_linkScript.tex [14]
 Chapter 第三章.
-) [11
+) [15
 
 ] (aCoral-I Boot.aux)
 Package rerunfilecheck Info: File `"aCoral-I Boot".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 27696 strings out of 410967
- 528617 string characters out of 2828016
- 1086727 words of memory out of 3000000
- 47931 multiletter control sequences out of 15000+600000
+ 27818 strings out of 410967
+ 533783 string characters out of 2828016
+ 1099725 words of memory out of 3000000
+ 48048 multiletter control sequences out of 15000+600000
  495680 words of font info for 117 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 106i,12n,105p,1214b,1072s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 106i,12n,105p,1214b,1070s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on aCoral-I Boot.pdf (14 pages).
+Output written on aCoral-I Boot.pdf (18 pages).
