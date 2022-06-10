@@ -27,8 +27,8 @@
 \contentsline {subsection}{\numberline {2.2.3}自我拷贝（loader）}{12}{subsection.2.2.3}%
  \cftsetpnumwidth {\widthof {13}-1pt} 
 \contentsline {subsection}{\numberline {2.2.4}bss段清零}{13}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}跳转至下一阶段}{13}{subsection.2.2.5}%
  \cftsetpnumwidth {\widthof {14}-1pt} 
+\contentsline {subsection}{\numberline {2.2.5}跳转至下一阶段}{14}{subsection.2.2.5}%
 \contentsline {section}{\numberline {2.3}启动-第二阶段}{14}{section.2.3}%
  \cftsetpnumwidth {\widthof {15}-1pt} 
 \contentsline {chapter}{\numberline {第三章}链接脚本}{15}{chapter.3}%

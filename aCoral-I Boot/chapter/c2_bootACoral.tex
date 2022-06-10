@@ -219,7 +219,31 @@ copy_self:
 \end{lstlisting}
 
 这一步非常重要。如果aCoral是烧写在nor flash中，启动时是从0地址开始运行的，那aCoral怎么到内存SDRAM（起始地址为0x30000000）中运行呢？
-这项任务是由aCoral自己来完成的，也就是我搬起了我自己。可以看到copy\_self的执行条件
+这项任务是由aCoral自己来完成的，也就是我搬起了我自己。
+
+我们先想一下，aCoral在上电运行的时候，怎么知道自己是在flash还是sdram中运行的呢？答案是看一下现在自己运行的地址是多少就行了，换句话说就是查看pc寄存器的值。
+基于这种思路，aCoral使用了一种更严谨的做法：使用adr相对地址指令。
+
+通过查看反汇编，
+\begin{lstlisting}
+	adr  r0,__ENTRY	
+\end{lstlisting}
+
+被汇编成
+
+\begin{lstlisting}
+	sub	r0, pc, #188
+\end{lstlisting}
+
+这就表示，无论程序在哪里运行，r0永远是程序的实际起始地址。比如说，当程序从0地址的flash开始运行，那r0的值就等于0；而当程序在0x30000000的sdram中运行时，
+r0寄存器就等于0x30000000。
+
+\begin{lstlisting}
+	ldr  r1,_text_start
+\end{lstlisting}
+
+而\_text\_start处存放的是定值0x30000000，所以r1=0x30000000。这样通过比较r0与r1寄存器，如果r0=r1=0x30000000，就说明程序当前正在sdram中运行，就不要copy\_self；反之则需要。
+copy\_self的过程自行阅读。
 
 \subsection{bss段清零}
 \begin{lstlisting}
@@ -241,7 +265,7 @@ mem_clear:
 	mov pc,lr
 \end{lstlisting}
 
-bss段中的数据都是未初始化或者初始值为0的，所以清空bss段就是将其中的内存全部赋值为0。
+bss段中的数据都是未初始化或者初始值为0的，而sdram本身是有一些随即初始值的，所以需要对bss段对应的内存进行清零。
 mem\_clear的两个参数分别为bss段的起始地址和结束地址，都定义在链接脚本中。
 
 \subsection{跳转至下一阶段}
