@@ -75,7 +75,7 @@ oINTSUBMSK指向的次级中断屏蔽寄存器类似。
 \end{figure}
 
 
-\section{时钟初始化}
+\subsection{时钟初始化}
 \begin{lstlisting}
 	@ initialise system clocks
 	mov	r1, #CLK_CTL_BASE
@@ -275,11 +275,125 @@ mem\_clear的两个参数分别为bss段的起始地址和结束地址，都定�
 
 代码最终将寄存器pc设置为acoral\_start的值，表示CPU将跳转到acoral\_start函数处执行。acoral\_start函数位于
 \begin{lstlisting}
- kernel\include\core.c
+ kernel\src\core.c
 \end{lstlisting}
+
 \section{启动-第二阶段}
 
-core.c中的acoral\_start()函数如下
+硬件初始化完成后，就需要对系统的软件部分进行初始化。
+现在我们来具体看一下，aCoral内核启动的第二阶段到底做了什么。
 
-这部分代码中，最重要的就是acoral\_module\_init()这个函数。这个函数将初始化aCoral的各个模块，包括中断、内存、线程等嵌入式操作系统必需的模块。初始化完成后，执行acoral\_core\_cpu\_start()函数，aCoral开始运行。
+\subsection{acoral-start}
+core.c中的acoral\_start()函数如下
+\begin{lstlisting}
+acoral_thread_t orig_thread;
+
+void acoral_start(){
+	orig_thread.console_id=ACORAL_DEV_ERR_ID;
+	acoral_set_orig_thread(&orig_thread);
+	/*板子初始化*/
+	HAL_BOARD_INIT();
+
+	/*内核模块初始化*/
+	acoral_module_init();
+
+	/*串口终端应该初始化好了，将根线程的终端id设置为串口终端*/
+#ifdef CFG_DRIVER
+	orig_thread.console_id=acoral_dev_open("console");
+#endif
+
+	/*主cpu开始函数*/
+	acoral_core_cpu_start();
+}
+\end{lstlisting}
+
+可以看到acoral\_start代码并不多，概括一下就是三件事：
+
+(1)内核模块初始化。
+
+这部分代码中，最重要的就是acoral\_module\_init()这个函数。
+这个函数将初始化aCoral的各个模块，包括中断、内存、线程等嵌入式操作系统必需的模块。
+\begin{lstlisting}
+	void acoral_module_init(){
+	/*中断系统初始化*/
+	acoral_intr_sys_init();
+	/*内存管理系统初始化*/
+	acoral_mem_sys_init();
+	/*资源管理系统初始化*/
+	acoral_res_sys_init();
+	/*驱动管理系统初始化*/
+	/*线程管理系统初始化*/
+	acoral_thread_sys_init();
+	/*时钟管理系统初始化*/
+	acoral_time_sys_init();
+	/*事件管理系统初始化,这个必须要，因为内存管理系统用到了*/
+	acoral_evt_sys_init();
+	/*消息管理系统初始化*/
+#ifdef CFG_DRIVER
+	acoral_drv_sys_init();
+#endif
+}
+\end{lstlisting}
+
+(2)设置orig线程。
+
+关于orig线程，有两个问题：这个线程是怎么创建的呢？为什么要设置一个orig线程呢？
+第一个问题比较好回答，这个时候aCoral的线程模块还没有初始化，创建线程的那些函数都是用不来的，
+所以就直接定义了一个acoral\_thread\_t 类型的orig\_thread。这个变量类型就是aCoral中的Task Control Block（TCB），在《aCoral内核手册》将会介绍。 
+给成员console\_id赋值，并将这个orig线程设置为当前正在运行的线程，如代码：
+\begin{lstlisting}
+	orig_thread.console_id=ACORAL_DEV_ERR_ID;
+	acoral_set_orig_thread(&orig_thread);
+\end{lstlisting}
+
+那么为什么要设置这个orig线程呢？我们先看一下console\_id被置为了什么。
+\begin{lstlisting}
+	orig_thread.console_id=acoral_dev_open("console");
+\end{lstlisting}
+
+这个orig线程的console\_id指向一个叫"console"的设备。
+console控制台是干什么用的？console本质上就是UART串口，我们在串口工具的那个黑黑的界面上看到的信息，都是从串口线传过来的。
+aCoral中我们经常见到的的函数acoral\_prints()，也是要把信息通过UART串口，显示到电脑的串口工具中。
+打开这个console设备，本质上就是在注册的驱动中找到UART串口驱动。
+话又说回来，那orig线程需要这个console干嘛呢？orig线程虽然不打印或接收信息，但是它需要这个console，
+是为了之后由它创建的线程（子线程、孙子线程等等）都能继承到这个console，换句话说，它的子孙们都能找到从哪去接收信息，把信息打印打哪里去。
+这点在acoral\_thread\_init()函数，也就是创建线程的过程中有体现。具体会在《aCoral内核手册》中介绍。
+
+从这里也可以看出，orig是真正意义上的，aCoral中的第一个线程（祖宗）。
+
+
+(3)调用acoral\_core\_cpu\_start()进行下一步初始化工作。
+
+\subsection{acoral-core-cpu-start}
+\begin{lstlisting}
+	void acoral_core_cpu_start(){
+	acoral_comm_policy_data_t data;
+	/*创建空闲线程*/
+	acoral_start_sched=false;
+	data.cpu=acoral_current_cpu;
+	data.prio=ACORAL_IDLE_PRIO;
+	data.prio_type=ACORAL_ABSOLUTE_PRIO;
+	idle_id=acoral_create_thread_ext(idle,IDLE_STACK_SIZE,NULL,"idle",NULL,ACORAL_SCHED_POLICY_COMM,&data);
+	if(idle_id==-1)
+		while(1);
+	/*创建初始化线程,这个调用层次比较多，需要多谢堆栈*/
+	data.prio=ACORAL_INIT_PRIO;
+	/*动态堆栈*/
+	init_id=acoral_create_thread_ext(init,ACORAL_TEST_STACK_SIZE,"in init","init",NULL,ACORAL_SCHED_POLICY_COMM,&data);
+	if(init_id==-1)
+		while(1);
+	acoral_start_os();
+}
+\end{lstlisting}
+
+这里，acoral\_core\_cpu\_start()概况起来也是做了三件事，创建idle线程、创建init线程、调用acoral\_start\_os()正式开始运行系统。
+第一件事和第二件事中的两个线程，就是之前提到的，orig线程的亲儿子，他们继承了orig线程的console，所以它们，尤其是init线程，才能正确使用UART串口实现和我们的交互。
+关于这两个线程，idle线程又名守护线程，说白了就是，CPU没事干了，又不能真的闲下来，那就去执行idle线程。
+所以idle线程的优先级是最低的；init线程做了很多初始化工作，包括5.2提到的时钟中断的注册，就是在init线程中完成的。
+init线程还初始化了shell。shell又是什么呢？你可以理解为，串口工具中那个黑黑的界面，能接收我们的指令并返回结果的程序就是shell。
+shell运行于开发板中，并通过console（UART串口）与我们交互。
+最后一件事，无非就是初始化完成了，开始调度了，这个时候aCoral会怎么运行，就看我们给它什么指令了。
+
+
+
 
