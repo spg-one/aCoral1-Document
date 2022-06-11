@@ -36,4 +36,5 @@
 \contentsline {subsection}{\numberline {2.2.2}acoral-core-cpu-start}{16}{subsection.2.2.2}%
  \cftsetpnumwidth {\widthof {17}-1pt} 
  \cftsetpnumwidth {\widthof {18}-1pt} 
-\contentsline {chapter}{\numberline {第三章}链接脚本}{18}{chapter.3}%
+ \cftsetpnumwidth {\widthof {19}-1pt} 
+\contentsline {chapter}{\numberline {第三章}链接脚本}{19}{chapter.3}%

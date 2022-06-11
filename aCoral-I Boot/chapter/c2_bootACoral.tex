@@ -386,13 +386,67 @@ aCoral中我们经常见到的的函数acoral\_prints()，也是要把信息通�
 }
 \end{lstlisting}
 
-这里，acoral\_core\_cpu\_start()概况起来也是做了三件事，创建idle线程、创建init线程、调用acoral\_start\_os()正式开始运行系统。
-第一件事和第二件事中的两个线程，就是之前提到的，orig线程的亲儿子，他们继承了orig线程的console，所以它们，尤其是init线程，才能正确使用UART串口实现和我们的交互。
-关于这两个线程，idle线程又名守护线程，说白了就是，CPU没事干了，又不能真的闲下来，那就去执行idle线程。
-所以idle线程的优先级是最低的；init线程做了很多初始化工作，包括5.2提到的时钟中断的注册，就是在init线程中完成的。
-init线程还初始化了shell。shell又是什么呢？你可以理解为，串口工具中那个黑黑的界面，能接收我们的指令并返回结果的程序就是shell。
-shell运行于开发板中，并通过console（UART串口）与我们交互。
-最后一件事，无非就是初始化完成了，开始调度了，这个时候aCoral会怎么运行，就看我们给它什么指令了。
+这里，acoral\_core\_cpu\_start()概况起来也是做了三件事：
+
+(1)创建idle线程。
+
+orig线程的亲儿子，继承了orig线程的console。
+idle线程又名守护线程，说白了就是，CPU没事干了，又不能真的闲下来，那就去执行idle线程，所以idle线程的优先级是最低的。
+idle线程的工作函数如下，可以看到，idle线程就是一个无限循环，CPU没事干了就跑while循环摆烂。
+\begin{lstlisting}
+void idle(void *args){
+	while(1){
+
+	}
+}
+\end{lstlisting}
+
+(2)创建init线程。
+
+orig线程的亲儿子，继承了orig线程的console。
+init线程做了很多初始化工作，包括时钟中断的注册、创建daem回收线程、shell线程初始化、插件初始化等。
+这里解释一下shell。串口之所以能接收我们的指令并返回结果，就是shell这个线程在工作。
+init线程的工作函数如下。
+\begin{lstlisting}
+void init(void *args){
+	acoral_prints("in init spg");
+	acoral_comm_policy_data_t data;
+	acoral_ticks_init();
+	/*ticks中断初始化函数*/
+	acoral_start_sched=true;
+	/*软件延时初始化函数*/
+#ifdef CFG_SOFT_DELAY
+	soft_delay_init();
+#endif
+
+	/*创建daem回收线程*/
+  	acoral_init_list(&acoral_res_release_queue.head);
+  	acoral_spin_init(&acoral_res_release_queue.head.lock);
+	data.cpu=acoral_current_cpu;
+	data.prio=ACORAL_DAEMON_PRIO;
+	data.prio_type=ACORAL_ABSOLUTE_PRIO;
+	daemon_id=acoral_create_thread_ext(daem,DAEM_STACK_SIZE,NULL,"daemon",NULL,ACORAL_SCHED_POLICY_COMM,&data);
+	thread=(acoral_thread_t *)acoral_get_res_by_id(daemon_id);
+	if(daemon_id==-1)
+		while(1);
+	/*应用级相关服务初始化,应用级不要使用延时函数，没有效果的*/
+#ifdef CFG_SHELL
+	acoral_shell_init();
+#endif
+	plugin_init();
+	app_enter_policy_init();
+	user_main();
+#ifdef CFG_TEST
+	test_init();
+#endif
+	app_exit_policy_init();
+}
+\end{lstlisting}
+
+
+(3)调用acoral\_start\_os()正式开始运行系统。
+
+最后一件事，无非就是初始化完成了，开始调度了，这个时候aCoral就正式开始运行了，一去不复返……
 
 
 
