@@ -6,13 +6,43 @@
 \school{信息与软件工程学院}{School of Information and Software Engineering}
 \major{电子信息}{Electrical & Information}
 \studentnumber{202122090410}
-\version{0.1}
+\version{1.0}
 
 
 % require all the usepackages here
 % \usepackage{algorithm2e}
-\usepackage[section]{placeins}
-\usepackage{longtable}
+%\usepackage[section]{placeins}
+\usepackage{longtable}  %跨页表格
+\usepackage{listings}   %代码块
+\usepackage{xcolor}     %颜色宏
+\usepackage{fontspec}   %字体
+\usepackage{caption}    %显示图片和表格的标题
+\usepackage{float}      %图片的“H”浮动选项
+\usepackage{hyperref}
+
+\hypersetup{hidelinks,
+	colorlinks=true,
+	allcolors=black,
+	pdfstartview=Fit,
+	breaklinks=true}
+
+
+\lstset{
+    basicstyle=\small, 
+    breaklines,                                 % 自动将长的代码行换行排版
+    extendedchars=false,                        % 解决代码跨页时，章节标题，页眉等汉字不显示的问题
+    backgroundcolor=\color[rgb]{0.96,0.96,0.96},% 背景颜色
+    keywordstyle=\color{blue}\bfseries,         % 关键字颜色
+    identifierstyle=\color{black},              % 普通标识符颜色
+    commentstyle=\color[rgb]{0,0.6,0},          % 注释颜色
+    stringstyle=\color[rgb]{0.58,0,0.82},       % 字符串颜色
+    showstringspaces=false,                     % 不显示字符串内的空格
+    numbers=left,                               % 显示行号
+    captionpos=t,                               % title在上方(在bottom即为b)
+    frame=single,                               % 设置代码框形式
+    rulecolor=\color[rgb]{0.8,0.8,0.8},         % 设置代码框颜色
+    tabsize=4                                   %tab长度为4个空格
+}  
 
 \begin{document}
 
@@ -30,7 +60,8 @@
 % thesis contents
 \input{chapter/c1_overview}
 \input{chapter/c2_structure}
-\input{chapter/c3_realatedDoc.tex}
+\input{chapter/c3_usageExample.tex}
+\input{chapter/c4_realatedDoc.tex}
 
 
 
