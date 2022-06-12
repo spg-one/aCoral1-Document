@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.5.14)  11 JUN 2022 19:27
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.5.14)  12 JUN 2022 17:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1409,22 +1409,25 @@ imSun(0)/m/n/12 写 入 \TU/TimesNewRoman(0)/m/n/12 oMPLLCON + CLK_CTL_BASE = 0x
 [9] [10]
 File: ./pic//程序状态寄存器格式.png Graphic file (type bmp)
 <./pic//程序状态寄存器格式.png>
- [11] [12] [13] [14] [15] [16] [17]) (chapter/c3_linkScript.tex
+ [11] [12] [13] [14] [15] [16] [17]) (chapter/c3_memoryAllocation.tex
 [18]
 Chapter 第三章.
-) [19
+[19
 
-] (aCoral-I Boot.aux)
+] [20]
+File: ./pic//aCoral内存分布.png Graphic file (type bmp)
+<./pic//aCoral内存分布.png>
+ [21]) [22] (aCoral-I Boot.aux)
 Package rerunfilecheck Info: File `"aCoral-I Boot".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 27847 strings out of 410967
- 535565 string characters out of 2828016
- 1099701 words of memory out of 3000000
- 48077 multiletter control sequences out of 15000+600000
+ 27858 strings out of 410967
+ 535840 string characters out of 2828016
+ 1095701 words of memory out of 3000000
+ 48087 multiletter control sequences out of 15000+600000
  495680 words of font info for 117 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  106i,12n,105p,1214b,1070s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on aCoral-I Boot.pdf (22 pages).
+Output written on aCoral-I Boot.pdf (25 pages).

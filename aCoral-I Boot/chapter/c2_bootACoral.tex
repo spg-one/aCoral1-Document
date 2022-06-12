@@ -5,7 +5,7 @@
 
 图\ref{复位后S3C2440A的存储器映射}显示了复位后S3C2440A的存储器映射情况，详细请参考《S3C2440中文手册》第五章。
 \begin{figure}[H]
-	\includegraphics[width=\textwidth]{复位后S3C2440A的存储器映射.png}
+	\includegraphics[width=0.9\textwidth]{复位后S3C2440A的存储器映射.png}
 	\caption{复位后S3C2440A的存储器映射}
 	\label{复位后S3C2440A的存储器映射}
 \end{figure}
@@ -46,7 +46,7 @@ PS:请准备好《S3C2440中文手册》
 
 
 \begin{figure}[H]
-	\includegraphics[width=\textwidth]{看门狗.png}
+	\includegraphics[width=0.9\textwidth]{看门狗.png}
 	\caption{看门狗定时器控制（WTCON）寄存器（手册第18章）}
 	\label{看门狗}
 \end{figure}
@@ -69,7 +69,7 @@ PS:请准备好《S3C2440中文手册》
 oINTSUBMSK指向的次级中断屏蔽寄存器类似。
 
 \begin{figure}[H]
-	\includegraphics[width=\textwidth]{中断屏蔽寄存器.png}
+	\includegraphics[width=0.9\textwidth]{中断屏蔽寄存器.png}
 	\caption{中断屏蔽寄存器（手册第14章）}
 	\label{中断屏蔽寄存器}
 \end{figure}
@@ -102,7 +102,7 @@ MPLL的输出频率直接给CPU使用，称为FCLK，同时经过上面初始化
 
 将 M\_DIVN = 0x5 写入 oCLKDIVN + oCLKDIVN = 0x4C000014 寄存器后，三者的比例为FCLK：HCLK：PCLK=8：2：1，如图\ref{时钟分频控制寄存器}
 \begin{figure}[H]
-	\includegraphics[width=\textwidth]{时钟分频控制寄存器.png}
+	\includegraphics[width=0.9\textwidth]{时钟分频控制寄存器.png}
 	\caption{时钟分频控制寄存器（手册第7章）}
 	\label{时钟分频控制寄存器}
 \end{figure}
@@ -110,7 +110,7 @@ MPLL的输出频率直接给CPU使用，称为FCLK，同时经过上面初始化
 将 vMPLLCON = 0x1FC0021 写入 oMPLLCON + CLK\_CTL\_BASE = 0x4C000004 寄存器后，得到FCLK≈400MHz，再根据之前的比例得到HCLK 和 PCLK分别为100MHz和50MHz。
 计算过程见图\ref{PLL 控制寄存器}，其中Fin就是晶振的频率=12MHz。
 \begin{figure}[H]
-	\includegraphics[width=\textwidth]{PLL 控制寄存器.png}
+	\includegraphics[width=0.9\textwidth]{PLL 控制寄存器.png}
 	\caption{PLL 控制寄存器（手册第7章）}
 	\label{PLL 控制寄存器}
 \end{figure}
@@ -185,7 +185,7 @@ InitStacks就是初始化一下arm处理器各个模式的栈。因为影子寄�
 具体的做法就是通过修改cpsr寄存器的[5:0]位，进入每一个模式并修改sp寄存器位该模式的栈底地址。
 每个模式的栈底地址定义于链接脚本。链接脚本将在下一节进行讲解。cpsr寄存器各位编排如图\ref{程序状态寄存器格式}。
 \begin{figure}[H]
-	\includegraphics[width=\textwidth]{程序状态寄存器格式.png}
+	\includegraphics[width=0.9\textwidth]{程序状态寄存器格式.png}
 	\caption{程序状态寄存器格式（手册第2章）}
 	\label{程序状态寄存器格式}
 \end{figure}
