@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.5.14)  11 JUN 2022 22:53
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.5.14)  12 JUN 2022 11:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1398,23 +1398,38 @@ Chapter 第三章.
 ]
 File: ./pic//接线示意图.png Graphic file (type bmp)
 <./pic//接线示意图.png>
+File: ./pic//minicom初始.png Graphic file (type bmp)
+<./pic//minicom初始.png>
+ [8]
 File: ./pic//nor开关.png Graphic file (type bmp)
 <./pic//nor开关.png>
- [8]) (chapter/c4_realatedDoc.tex [9]
+ [9]
+File: ./pic//supervivi界面.png Graphic file (type bmp)
+<./pic//supervivi界面.png>
+File: ./pic//等待USB下载.png Graphic file (type bmp)
+<./pic//等待USB下载.png>
+File: ./pic//dnw下载.png Graphic file (type bmp)
+<./pic//dnw下载.png>
+ [10]
+File: ./pic//aCoral shell.png Graphic file (type bmp)
+<./pic//aCoral shell.png>
+File: ./pic//help命令.png Graphic file (type bmp)
+<./pic//help命令.png>
+ [11]) (chapter/c4_realatedDoc.tex [12]
 Chapter 第四章.
-) [10
+) [13
 
 ] (aCoral-I Overview.aux)
 Package rerunfilecheck Info: File `"aCoral-I Overview".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 27751 strings out of 410967
- 530574 string characters out of 2828016
+ 27811 strings out of 410967
+ 531878 string characters out of 2828016
  982737 words of memory out of 3000000
- 47982 multiletter control sequences out of 15000+600000
+ 48036 multiletter control sequences out of 15000+600000
  495672 words of font info for 116 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 106i,11n,105p,1222b,563s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 106i,12n,105p,1222b,563s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on aCoral-I Overview.pdf (13 pages).
+Output written on aCoral-I Overview.pdf (16 pages).

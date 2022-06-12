@@ -51,9 +51,9 @@
 本手册中，bootloader我们使用友善之臂开发的supervivi。关于supervivi如何烧写进flash，请自行在网上查找资料。
 这里我们默认已经在nor flash中烧写好了supervivi。接下来就可以正式开始下载aCoral。
 
-(1)第一步，接线。依次从左到右插上USB下载线、串口线、电源线，如图\ref{接线示意图}所示。
+(1)第一步，接线。依次从左到右为USB下载线、串口线、电源线，如图\ref{接线示意图}。
 \begin{figure}[H]
-	\includegraphics[width=\textwidth]{接线示意图.png}
+	\includegraphics[width=0.9\textwidth]{接线示意图.png}
 	\caption{接线示意图}
 	\label{接线示意图}
 \end{figure}
@@ -62,25 +62,56 @@ USB下载线和串口线另一端USB接口自然是插到电脑上。其中USB�
 比如命令行命令就是由串口线传到开发板上，执行结果再由串口回显到PC上。大家电脑上肯定没有串口了，所以需要一个USB转串口驱动（PL2303芯片）。
 如何在Ubuntu下安装PL2303驱动，参考 \href{https://blog.csdn.net/qq_34562093/article/details/75059251}{\underline{ubuntu安装USB转串口驱动（PL2303）}}
 
-(2)第二步，安装mimicom串口工具，并能够正确识别插上的USB转串口。具体自行查阅资料。
+(2)第二步，安装mimicom串口工具，并能够正确识别插上的USB转串口。具体自行查阅资料。成功连接串口界面如图\ref{minicom初始}：
+\begin{figure}[H]
+	\includegraphics[width=0.9\textwidth]{minicom初始.png}
+	\caption{minicom初始界面}
+	\label{minicom初始}
+\end{figure}
 
 (3)第三步，将开发板左下角的开关向下拨到nor，如图\ref{nor开关}所示。
 \begin{figure}[H]
-	\includegraphics[width=\textwidth]{nor开关.png}
+	\includegraphics[width=0.9\textwidth]{nor开关.png}
 	\caption{nor开关}
 	\label{nor开关}
 \end{figure}
 
 (4)第四步，编译aCoral根目录下的dnw.c文件。这里我们已经提前编译好了dnw，直接使用即可。dnw就是USB下载线的驱动。
 
-(5)运行minicom，连接好串口，打开mini2440的电源开关，你将看到如下界面：
+(5)运行minicom，打开mini2440的电源，你将看到如图\ref{supervivi界面}所示界面：
+\begin{figure}[H]
+	\includegraphics[width=0.9\textwidth]{supervivi界面.png}
+	\caption{supervivi界面}
+	\label{supervivi界面}
+\end{figure}
 
-输入d，看到如下界面：
+输入d，看到如图\ref{等待USB下载}所示界面：
+\begin{figure}[H]
+	\includegraphics[width=0.9\textwidth]{等待USB下载.png}
+	\caption{等待USB下载}
+	\label{等待USB下载}
+\end{figure}
 
-运行dnw，下载acoral.bin，如图：
+运行dnw，下载acoral.bin，如图\ref{dnw下载}：
+\begin{figure}[H]
+	\includegraphics[width=0.9\textwidth]{dnw下载.png}
+	\caption{dnw下载}
+	\label{dnw下载}
+\end{figure}
 
-如果一切顺利，你将在minicom看到如图所示的界面，表示aCoral已经在内存sdram中运行起来了，吗，minicom上显示出"aCoral:>"，这就是aCoral的shell。
+如果一切顺利，你将在minicom看到如图\ref{aCoral shell}所示的界面：
+\begin{figure}[H]
+	\includegraphics[width=0.9\textwidth]{aCoral shell.png}
+	\caption{aCoral shell}
+	\label{aCoral shell}
+\end{figure}
 
-大家可以在中输入help命令，看看aCoral现在支持的指令。
+大家可以在中输入help命令，看看aCoral现在支持的指令，如图\ref{help命令}所示：
+\begin{figure}[H]
+	\includegraphics[width=0.9\textwidth]{help命令.png}
+	\caption{help命令}
+	\label{help命令}
+\end{figure}
+
 至此，aCoral的下载完成，之后如果又重新编译了新的镜像，都可以按照这个步骤来。
 需要注意的是，这种使用bootloader直接往sdram下载的镜像，关机之后没了，需要重新下载。

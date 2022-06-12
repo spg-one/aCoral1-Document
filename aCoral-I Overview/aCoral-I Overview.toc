@@ -23,4 +23,7 @@
  \cftsetpnumwidth {\widthof {8}-1pt} 
  \cftsetpnumwidth {\widthof {9}-1pt} 
  \cftsetpnumwidth {\widthof {10}-1pt} 
-\contentsline {chapter}{\numberline {第四章}相关资料}{10}{chapter.4}%
+ \cftsetpnumwidth {\widthof {11}-1pt} 
+ \cftsetpnumwidth {\widthof {12}-1pt} 
+ \cftsetpnumwidth {\widthof {13}-1pt} 
+\contentsline {chapter}{\numberline {第四章}相关资料}{13}{chapter.4}%
