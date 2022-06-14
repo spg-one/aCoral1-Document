@@ -9,22 +9,30 @@
  gedit /etc/profile   
 \end{lstlisting}
 
-在打开的文件最后输入
+在打开的文件最后另起一行输入（很重要，请务必确认内容正确）
 \begin{lstlisting}
- PATH=xxx/arm-2010q1/bin:\$PATH  
+ export PATH=$PATH:xxx/arm-2010q1/bin  
 \end{lstlisting}
 
-其中“xxx”为交叉编译链文件所在路径。然后保存文件，在终端输入
+其中“xxx”为交叉编译链文件所在路径。然后保存文件，在终端输入（再次提醒，这里很重要，一旦环境变量出错影响到系统，后果很严重）
 \begin{lstlisting}
- source etc/profile
+ source /etc/profile
 \end{lstlisting}
 
-更新环境变量。最后在终端输入
+更新环境变量，再手动重启，最后在终端输入
 \begin{lstlisting}
  arm-none-eabi-gcc -v
 \end{lstlisting}
 
 查看版本号，确定交叉编译工具是否安装成功。
+
+如果出现"no such file or directory"的错误，则是因为32位编译器不能在64位系统中运行，需要安装32位库。
+在终端中输入
+\begin{lstlisting}
+ apt-get install lib32ncurses5 lib32z1
+\end{lstlisting}
+
+安装完成后，再次查看版本号即可。
 
 (2)第二步，修改编译所需的编译器。修改aCoral根目录下的Makefile文件中的交叉编译路径CROSS\_COMPILE 为
 \begin{lstlisting}
