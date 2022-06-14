@@ -1,8 +1,9 @@
 \chapter{使用介绍}
-\section{配置编译环境}
 
 在这一章中，手册使用的操作系统为Ubuntu 18.04.5 LTS，编译交叉工具链为arm-2010q1。其它版本的操作系统和编译器可以自行测试。
-点击 \href{https://github.com/spg-one/aCoral1-Tools}{\underline{工具链接}} 下载。
+点击 \href{https://github.com/spg-one/aCoral1-Tools}{\underline{工具链接}} 下载所需工具。
+
+\section{配置编译环境}
 
 (1)第一步，将编译器加入系统环境变量。在终端输入
 \begin{lstlisting}
@@ -67,9 +68,8 @@
 	\label{接线示意图}
 \end{figure}
 
-USB下载线和串口线另一端USB接口自然是插到电脑上。其中USB下载线用于将镜像下载到sdram中，串口线用于在开发板和PC之间传递字符信息，
-比如命令行命令就是由串口线传到开发板上，执行结果再由串口回显到PC上。大家电脑上肯定没有串口了，所以需要一个USB转串口驱动（PL2303芯片）。
-如何在Ubuntu下安装PL2303驱动，参考 \href{https://blog.csdn.net/qq_34562093/article/details/75059251}{\underline{ubuntu安装USB转串口驱动（PL2303）}}
+大家电脑上肯定没有串口了，所以需要接一个USB转串口线（PL2303芯片）。驱动安装
+参考 \href{https://blog.csdn.net/qq_34562093/article/details/75059251}{\underline{ubuntu安装USB转串口驱动}}
 
 (2)第二步，安装mimicom串口工具，并能够正确识别插上的USB转串口。具体自行查阅资料。成功连接串口界面如图\ref{minicom初始}：
 \begin{figure}[H]
@@ -85,7 +85,7 @@ USB下载线和串口线另一端USB接口自然是插到电脑上。其中USB�
 	\label{nor开关}
 \end{figure}
 
-(4)第四步，编译aCoral根目录下的dnw.c文件。这里我们已经提前编译好了dnw，直接使用即可。dnw就是USB下载线的驱动。
+(4)第四步，编译之前下载的工具目录下的dnw.c文件。这里我们已经提前编译好了dnw，直接使用即可。dnw就是USB下载线的驱动。
 
 (5)运行minicom，打开mini2440的电源，你将看到如图\ref{supervivi界面}所示界面：
 \begin{figure}[H]
