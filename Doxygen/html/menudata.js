@@ -23,55 +23,14 @@
  @licend  The above is the entire license notice for the JavaScript code in this file
 */
 var menudata={children:[
-{text:"Main Page",url:"index.html"},
-{text:"Related Pages",url:"pages.html"},
-{text:"Data Structures",url:"annotated.html",children:[
-{text:"Data Structures",url:"annotated.html"},
-{text:"Data Structure Index",url:"classes.html"},
-{text:"Data Fields",url:"functions.html",children:[
-{text:"All",url:"functions.html"},
-{text:"Variables",url:"functions_vars.html"}]}]},
-{text:"Files",url:"files.html",children:[
-{text:"File List",url:"files.html"},
-{text:"Globals",url:"globals.html",children:[
-{text:"All",url:"globals.html",children:[
-{text:"a",url:"globals.html#index_a"},
-{text:"c",url:"globals_c.html#index_c"},
-{text:"d",url:"globals_d.html#index_d"},
-{text:"e",url:"globals_e.html#index_e"},
-{text:"h",url:"globals_h.html#index_h"},
-{text:"i",url:"globals_i.html#index_i"},
-{text:"l",url:"globals_l.html#index_l"},
-{text:"m",url:"globals_m.html#index_m"},
-{text:"n",url:"globals_n.html#index_n"},
-{text:"p",url:"globals_p.html#index_p"},
-{text:"r",url:"globals_r.html#index_r"},
-{text:"s",url:"globals_s.html#index_s"},
-{text:"t",url:"globals_t.html#index_t"},
-{text:"u",url:"globals_u.html#index_u"}]},
-{text:"Functions",url:"globals_func.html",children:[
-{text:"a",url:"globals_func.html#index_a"},
-{text:"d",url:"globals_func.html#index_d"},
-{text:"h",url:"globals_func.html#index_h"},
-{text:"i",url:"globals_func.html#index_i"},
-{text:"l",url:"globals_func.html#index_l"},
-{text:"m",url:"globals_func.html#index_m"},
-{text:"n",url:"globals_func.html#index_n"},
-{text:"p",url:"globals_func.html#index_p"},
-{text:"s",url:"globals_func.html#index_s"},
-{text:"t",url:"globals_func.html#index_t"}]},
-{text:"Variables",url:"globals_vars.html"},
-{text:"Macros",url:"globals_defs.html",children:[
-{text:"a",url:"globals_defs.html#index_a"},
-{text:"c",url:"globals_defs.html#index_c"},
-{text:"d",url:"globals_defs.html#index_d"},
-{text:"e",url:"globals_defs.html#index_e"},
-{text:"i",url:"globals_defs.html#index_i"},
-{text:"l",url:"globals_defs.html#index_l"},
-{text:"m",url:"globals_defs.html#index_m"},
-{text:"n",url:"globals_defs.html#index_n"},
-{text:"p",url:"globals_defs.html#index_p"},
-{text:"r",url:"globals_defs.html#index_r"},
-{text:"s",url:"globals_defs.html#index_s"},
-{text:"t",url:"globals_defs.html#index_t"},
-{text:"u",url:"globals_defs.html#index_u"}]}]}]}]}
+{text:"首页",url:"index.html"},
+{text:"相关页面",url:"pages.html"},
+{text:"结构体",url:"annotated.html",children:[
+{text:"结构体",url:"annotated.html"},
+{text:"结构体索引",url:"classes.html"}]},
+{text:"文件",url:"files.html",children:[
+{text:"文件列表",url:"files.html"},
+{text:"全局定义",url:"globals.html",children:[
+{text:"全部",url:"globals.html"},
+{text:"函数",url:"globals_func.html"},
+{text:"宏定义",url:"globals_defs.html"}]}]}]}

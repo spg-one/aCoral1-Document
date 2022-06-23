@@ -1,23 +1,4 @@
 var searchData=
 [
-  ['daem_0',['daem',['../core_8c.html#adf9e0186399ddc4231380d8da3330a57',1,'core.c']]],
-  ['default_5facceptmbox_5fsize_1',['DEFAULT_ACCEPTMBOX_SIZE',['../opt_8h.html#a5d5a6e04abe2ec233c7acdb09f992461',1,'opt.h']]],
-  ['default_5fraw_5frecvmbox_5fsize_2',['DEFAULT_RAW_RECVMBOX_SIZE',['../opt_8h.html#a4ef8f046c957750056131310a1580df7',1,'opt.h']]],
-  ['default_5ftcp_5frecvmbox_5fsize_3',['DEFAULT_TCP_RECVMBOX_SIZE',['../opt_8h.html#a1bd172938b9c8ba63156fcafc87e83c7',1,'opt.h']]],
-  ['default_5fthread_5fname_4',['DEFAULT_THREAD_NAME',['../opt_8h.html#aca13123a5c8271558353e04123957616',1,'opt.h']]],
-  ['default_5fthread_5fprio_5',['DEFAULT_THREAD_PRIO',['../opt_8h.html#a3d8715b1fdd0449d6c214e4a40108456',1,'opt.h']]],
-  ['default_5fthread_5fstacksize_6',['DEFAULT_THREAD_STACKSIZE',['../opt_8h.html#a7f93dfeaed4021061959f822def602cb',1,'opt.h']]],
-  ['default_5fudp_5frecvmbox_5fsize_7',['DEFAULT_UDP_RECVMBOX_SIZE',['../opt_8h.html#a09fe785559b3f0cf108da4440489e335',1,'opt.h']]],
-  ['dhcp_2ec_8',['dhcp.c',['../dhcp_8c.html',1,'']]],
-  ['dhcp_2eh_9',['dhcp.h',['../dhcp_8h.html',1,'']]],
-  ['dhcp_5fdebug_10',['DHCP_DEBUG',['../opt_8h.html#a97927ceecabcdb5f41735bf372a05cee',1,'opt.h']]],
-  ['dhcp_5fdoes_5farp_5fcheck_11',['DHCP_DOES_ARP_CHECK',['../opt_8h.html#ab2d91de7b2fce879b0a213682e1b0b69',1,'opt.h']]],
-  ['dns_2ec_12',['dns.c',['../dns_8c.html',1,'']]],
-  ['dns_5fdebug_13',['DNS_DEBUG',['../opt_8h.html#aba55da2352c99d813767913e5e36be1f',1,'opt.h']]],
-  ['dns_5fdoes_5fname_5fcheck_14',['DNS_DOES_NAME_CHECK',['../opt_8h.html#a07ffd8e9106dae3b65347bd03811a4b6',1,'opt.h']]],
-  ['dns_5fmax_5fname_5flength_15',['DNS_MAX_NAME_LENGTH',['../opt_8h.html#a3b01c79902063c170ef57deb72f56124',1,'opt.h']]],
-  ['dns_5fmax_5fservers_16',['DNS_MAX_SERVERS',['../opt_8h.html#a9f9881c887a8aceb9765820c2dbdf292',1,'opt.h']]],
-  ['dns_5fmsg_5fsize_17',['DNS_MSG_SIZE',['../opt_8h.html#af489bec6d82ce1a8cfc08dfd0bd25767',1,'opt.h']]],
-  ['dns_5ftable_5fsize_18',['DNS_TABLE_SIZE',['../opt_8h.html#a2384e76c1acdf969d883f3de08d340f7',1,'opt.h']]],
-  ['dns_5fuses_5fstatic_5fbuf_19',['DNS_USES_STATIC_BUF',['../opt_8h.html#a60a549132d931208028403376918fc90',1,'opt.h']]]
+  ['daem_0',['daem',['../d6/de7/core_8c.html#adf9e0186399ddc4231380d8da3330a57',1,'core.c']]]
 ];

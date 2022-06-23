@@ -1,12 +1,11 @@
 var indexSectionsWithContent =
 {
-  0: "_abcdefhilmnoprstuv",
-  1: "_abcefhilmnpstuv",
-  2: "acdeilmnoprstu",
-  3: "adhilmnpst",
-  4: "fhilmnoprstu",
-  5: "acdeilmnprstu",
-  6: "at"
+  0: "_abcdhimp",
+  1: "_abhmp",
+  2: "ch",
+  3: "adi",
+  4: "hi",
+  5: "a"
 };
 
 var indexSectionNames =
@@ -15,19 +14,17 @@ var indexSectionNames =
   1: "classes",
   2: "files",
   3: "functions",
-  4: "variables",
-  5: "defines",
-  6: "pages"
+  4: "defines",
+  5: "pages"
 };
 
 var indexSectionLabels =
 {
-  0: "All",
-  1: "Data Structures",
-  2: "Files",
-  3: "Functions",
-  4: "Variables",
-  5: "Macros",
-  6: "Pages"
+  0: "全部",
+  1: "结构体",
+  2: "文件",
+  3: "函数",
+  4: "宏定义",
+  5: "页"
 };
 

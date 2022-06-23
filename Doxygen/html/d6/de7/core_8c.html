@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.4"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>aCoral-I: C:/Users/SPGGO/Documents/aCoral/aCoral-mini2440/kernel/src/core.c 文件参考</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">aCoral-I<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">aCoral single processor version for mini2440</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.4 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search",'搜索','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dir_31ead50c41a10e9c942f486ea679db4a.html">aCoral-mini2440</a></li><li class="navelem"><a class="el" href="../../dir_9426ae28dc1c7f57efc4423f57ec06a9.html">kernel</a></li><li class="navelem"><a class="el" href="../../dir_b69e94f352c4ef1854d6e2b4b76320f1.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">宏定义</a> &#124;
+<a href="#func-members">函数</a> &#124;
+<a href="#var-members">变量</a>  </div>
+  <div class="headertitle"><div class="title">core.c 文件参考</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;acoral.h&gt;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+宏定义</h2></td></tr>
+<tr class="memitem:a790c6e5649d03af9754edebec36084e1"><td class="memItemLeft" align="right" valign="top"><a id="a790c6e5649d03af9754edebec36084e1" name="a790c6e5649d03af9754edebec36084e1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAEM_STACK_SIZE</b>&#160;&#160;&#160;256</td></tr>
+<tr class="separator:a790c6e5649d03af9754edebec36084e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a4eaedba6ce2dd34d625fb9114c8483"><td class="memItemLeft" align="right" valign="top"><a id="a5a4eaedba6ce2dd34d625fb9114c8483" name="a5a4eaedba6ce2dd34d625fb9114c8483"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>IDLE_STACK_SIZE</b>&#160;&#160;&#160;128</td></tr>
+<tr class="memdesc:a5a4eaedba6ce2dd34d625fb9114c8483"><td class="mdescLeft">&#160;</td><td class="mdescRight">CPU开始创建线程工作，创建idle线程、init线程 <br /></td></tr>
+<tr class="separator:a5a4eaedba6ce2dd34d625fb9114c8483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:a0c5d3cb65c76ef90bcca77de8126c293"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de7/core_8c.html#a0c5d3cb65c76ef90bcca77de8126c293">idle</a> (void *args)</td></tr>
+<tr class="memdesc:a0c5d3cb65c76ef90bcca77de8126c293"><td class="mdescLeft">&#160;</td><td class="mdescRight">aCoral空闲守护线程idle函数  <a href="../../d6/de7/core_8c.html#a0c5d3cb65c76ef90bcca77de8126c293">更多...</a><br /></td></tr>
+<tr class="separator:a0c5d3cb65c76ef90bcca77de8126c293"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf9e0186399ddc4231380d8da3330a57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de7/core_8c.html#adf9e0186399ddc4231380d8da3330a57">daem</a> (void *args)</td></tr>
+<tr class="memdesc:adf9e0186399ddc4231380d8da3330a57"><td class="mdescLeft">&#160;</td><td class="mdescRight">aCoral资源回收线程daem函数  <a href="../../d6/de7/core_8c.html#adf9e0186399ddc4231380d8da3330a57">更多...</a><br /></td></tr>
+<tr class="separator:adf9e0186399ddc4231380d8da3330a57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bfde7b5020b14bdcb1c9269ab308dc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de7/core_8c.html#a5bfde7b5020b14bdcb1c9269ab308dc5">init</a> (void *args)</td></tr>
+<tr class="memdesc:a5bfde7b5020b14bdcb1c9269ab308dc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">aCoral初始化线程init函数  <a href="../../d6/de7/core_8c.html#a5bfde7b5020b14bdcb1c9269ab308dc5">更多...</a><br /></td></tr>
+<tr class="separator:a5bfde7b5020b14bdcb1c9269ab308dc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10135fa6f262ec735c896a8da66e81d5"><td class="memItemLeft" align="right" valign="top"><a id="a10135fa6f262ec735c896a8da66e81d5" name="a10135fa6f262ec735c896a8da66e81d5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>acoral_start</b> ()</td></tr>
+<tr class="memdesc:a10135fa6f262ec735c896a8da66e81d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">c语言初始化入口函数 <br /></td></tr>
+<tr class="separator:a10135fa6f262ec735c896a8da66e81d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace0ce84c971268d9676c9d08787ac3ac"><td class="memItemLeft" align="right" valign="top"><a id="ace0ce84c971268d9676c9d08787ac3ac" name="ace0ce84c971268d9676c9d08787ac3ac"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>acoral_core_cpu_start</b> ()</td></tr>
+<tr class="separator:ace0ce84c971268d9676c9d08787ac3ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a3363d06f2959b330d0d453e26fb1e5"><td class="memItemLeft" align="right" valign="top"><a id="a3a3363d06f2959b330d0d453e26fb1e5" name="a3a3363d06f2959b330d0d453e26fb1e5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>acoral_start_os</b> ()</td></tr>
+<tr class="memdesc:a3a3363d06f2959b330d0d453e26fb1e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">aCoral最终启动 <br /></td></tr>
+<tr class="separator:a3a3363d06f2959b330d0d453e26fb1e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d97977864a58fa703af330f3a302e40"><td class="memItemLeft" align="right" valign="top"><a id="a1d97977864a58fa703af330f3a302e40" name="a1d97977864a58fa703af330f3a302e40"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>acoral_module_init</b> ()</td></tr>
+<tr class="memdesc:a1d97977864a58fa703af330f3a302e40"><td class="mdescLeft">&#160;</td><td class="mdescRight">aCoral内核各模块初始化 <br /></td></tr>
+<tr class="separator:a1d97977864a58fa703af330f3a302e40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+变量</h2></td></tr>
+<tr class="memitem:aef4c9de2c91eaf3bf6f28f3166a1df48"><td class="memItemLeft" align="right" valign="top"><a id="aef4c9de2c91eaf3bf6f28f3166a1df48" name="aef4c9de2c91eaf3bf6f28f3166a1df48"></a>
+acoral_queue_t&#160;</td><td class="memItemRight" valign="bottom"><b>acoral_res_release_queue</b></td></tr>
+<tr class="separator:aef4c9de2c91eaf3bf6f28f3166a1df48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff5102279a6eef731f3b7ef79c5cc573"><td class="memItemLeft" align="right" valign="top"><a id="aff5102279a6eef731f3b7ef79c5cc573" name="aff5102279a6eef731f3b7ef79c5cc573"></a>
+volatile acoral_u32&#160;</td><td class="memItemRight" valign="bottom"><b>acoral_start_sched</b> = false</td></tr>
+<tr class="separator:aff5102279a6eef731f3b7ef79c5cc573"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e00d5ea823f6bf614f2de991f08eda0"><td class="memItemLeft" align="right" valign="top"><a id="a5e00d5ea823f6bf614f2de991f08eda0" name="a5e00d5ea823f6bf614f2de991f08eda0"></a>
+acoral_id&#160;</td><td class="memItemRight" valign="bottom"><b>daemon_id</b></td></tr>
+<tr class="separator:a5e00d5ea823f6bf614f2de991f08eda0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66d166e92e90d3aa23d9c6215de1f87c"><td class="memItemLeft" align="right" valign="top"><a id="a66d166e92e90d3aa23d9c6215de1f87c" name="a66d166e92e90d3aa23d9c6215de1f87c"></a>
+acoral_id&#160;</td><td class="memItemRight" valign="bottom"><b>idle_id</b></td></tr>
+<tr class="separator:a66d166e92e90d3aa23d9c6215de1f87c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab62f1ede42a40a3c8861d52ef5c7bed7"><td class="memItemLeft" align="right" valign="top"><a id="ab62f1ede42a40a3c8861d52ef5c7bed7" name="ab62f1ede42a40a3c8861d52ef5c7bed7"></a>
+acoral_id&#160;</td><td class="memItemRight" valign="bottom"><b>init_id</b></td></tr>
+<tr class="separator:ab62f1ede42a40a3c8861d52ef5c7bed7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76965aa3308cfa37afad176fadb39e28"><td class="memItemLeft" align="right" valign="top"><a id="a76965aa3308cfa37afad176fadb39e28" name="a76965aa3308cfa37afad176fadb39e28"></a>
+volatile acoral_u32&#160;</td><td class="memItemRight" valign="bottom"><b>idle_count</b> [HAL_MAX_CPU]</td></tr>
+<tr class="separator:a76965aa3308cfa37afad176fadb39e28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2b25cda3eaef0f03044424777b3e1fc"><td class="memItemLeft" align="right" valign="top"><a id="ad2b25cda3eaef0f03044424777b3e1fc" name="ad2b25cda3eaef0f03044424777b3e1fc"></a>
+<a class="el" href="../../dc/d6d/structacoral__thread__t.html">acoral_thread_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>thread</b></td></tr>
+<tr class="separator:ad2b25cda3eaef0f03044424777b3e1fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24cc49f5c44da5eac9e58b1012d12b08"><td class="memItemLeft" align="right" valign="top"><a id="a24cc49f5c44da5eac9e58b1012d12b08" name="a24cc49f5c44da5eac9e58b1012d12b08"></a>
+<a class="el" href="../../dc/d6d/structacoral__thread__t.html">acoral_thread_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>orig_thread</b></td></tr>
+<tr class="separator:a24cc49f5c44da5eac9e58b1012d12b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><dl class="section author"><dt>作者</dt><dd>王彬浩 (<a href="#" onclick="location.href='mai'+'lto:'+'SPG'+'GO'+'GOG'+'O@'+'out'+'lo'+'ok.'+'co'+'m'; return false;">SPGGO<span class="obfuscator">.nosp@m.</span>GOGO<span class="obfuscator">.nosp@m.</span>@outl<span class="obfuscator">.nosp@m.</span>ook.<span class="obfuscator">.nosp@m.</span>com</a>) </dd></dl>
+<dl class="section version"><dt>版本</dt><dd>1.0 </dd></dl>
+<dl class="section date"><dt>日期</dt><dd>2022-06-18</dd></dl>
+<dl class="section copyright"><dt>版权所有</dt><dd>Copyright (c) 2022 //TODO 做表格 <table class="doxtable">
+<tr>
+<th>版本 </th><th>作者 </th><th>日期 </th><th>修改内容 </th></tr>
+</table>
+</dd></dl>
+</div><h2 class="groupheader">函数说明</h2>
+<a id="adf9e0186399ddc4231380d8da3330a57" name="adf9e0186399ddc4231380d8da3330a57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf9e0186399ddc4231380d8da3330a57">&#9670;&nbsp;</a></span>daem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void daem </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>aCoral资源回收线程daem函数 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0c5d3cb65c76ef90bcca77de8126c293" name="a0c5d3cb65c76ef90bcca77de8126c293"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c5d3cb65c76ef90bcca77de8126c293">&#9670;&nbsp;</a></span>idle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void idle </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>aCoral空闲守护线程idle函数 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5bfde7b5020b14bdcb1c9269ab308dc5" name="a5bfde7b5020b14bdcb1c9269ab308dc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bfde7b5020b14bdcb1c9269ab308dc5">&#9670;&nbsp;</a></span>init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void init </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>aCoral初始化线程init函数 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+</small></address>
+</body>
+</html>

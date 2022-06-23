@@ -1,0 +1,200 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="aCoral-mini2440"><param name="Local" value="de/db4/md__c___users__s_p_g_g_o__documents_a_coral_a_coral_mini2440__r_e_a_d_m_e.html"><param name="ImageNumber" value="11"></OBJECT>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="结构体"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="结构体"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="_card_desc"><param name="Local" value="d6/d3a/struct__card__desc.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="_sd_control_desc"><param name="Local" value="da/d28/struct__sd__control__desc.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_atomic_t"><param name="Local" value="da/daf/structacoral__atomic__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_block_ctr_t"><param name="Local" value="dc/d3b/structacoral__block__ctr__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_block_t"><param name="Local" value="da/d87/structacoral__block__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_comm_policy_data_t"><param name="Local" value="d5/d8c/structacoral__comm__policy__data__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_dev_operation"><param name="Local" value="d1/d68/structacoral__dev__operation.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_drv_ctrl"><param name="Local" value="d2/d8d/structacoral__drv__ctrl.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_evt_t"><param name="Local" value="d5/dad/structacoral__evt__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_intr_ctr_t"><param name="Local" value="d4/d8a/structacoral__intr__ctr__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_kb_info"><param name="Local" value="d6/d23/structacoral__kb__info.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_msg_t"><param name="Local" value="d8/dc2/structacoral__msg__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_msgctr_t"><param name="Local" value="d6/d9c/structacoral__msgctr__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_period_policy_data_t"><param name="Local" value="da/de2/structacoral__period__policy__data__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_pool_ctrl_t"><param name="Local" value="dd/d49/structacoral__pool__ctrl__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_pool_t"><param name="Local" value="d6/dbc/structacoral__pool__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_rdy_queue_t"><param name="Local" value="dc/d9f/structacoral__rdy__queue__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_res_api_t"><param name="Local" value="da/dea/structacoral__res__api__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_res_ops_t"><param name="Local" value="d2/de9/structacoral__res__ops__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_res_t"><param name="Local" value="d7/d12/unionacoral__res__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_sched_policy_t"><param name="Local" value="dc/d80/structacoral__sched__policy__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_screen_info"><param name="Local" value="d0/db3/structacoral__screen__info.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_spinlock_t"><param name="Local" value="db/d52/structacoral__spinlock__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_thread_t"><param name="Local" value="dc/d6d/structacoral__thread__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_ts_info"><param name="Local" value="de/d01/structacoral__ts__info.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="boot_nand_t"><param name="Local" value="d0/db6/structboot__nand__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="hal_ctx_t"><param name="Local" value="d4/de2/structhal__ctx__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="mem2_ctrl_t"><param name="Local" value="df/d2e/structmem2__ctrl__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="period_policy_data_t"><param name="Local" value="dc/d85/structperiod__policy__data__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="结构体索引"><param name="Local" value="classes.html"><param name="ImageNumber" value="11"></OBJECT>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="文件"><param name="Local" value="files.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="文件列表"><param name="Local" value="files.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="aCoral-mini2440"><param name="Local" value="dir_31ead50c41a10e9c942f486ea679db4a.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="driver"><param name="Local" value="dir_21fd7fb03754b8a4952fb22e0346edce.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="include"><param name="Local" value="dir_c47c01ea3cd892f9ab427fa07da5fe2a.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="console.h"><param name="Local" value="d0/de3/console_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="dm9000.h"><param name="Local" value="d2/d96/dm9000_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="driver.h"><param name="Local" value="db/de4/driver_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="kb.h"><param name="Local" value="d4/d6d/kb_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="net_drv.h"><param name="Local" value="d3/de1/net__drv_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="reg.h"><param name="Local" value="da/de1/reg_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="screen.h"><param name="Local" value="dd/ddc/screen_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ts.h"><param name="Local" value="d7/df8/ts_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="hal"><param name="Local" value="dir_a0289ab798836c20aac6326793c79018.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="include"><param name="Local" value="dir_a8ac0ef0817f4ddaf7470b237d152f65.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="hal.h"><param name="Local" value="d8/d4b/hal_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="hal_2440_c.h"><param name="Local" value="df/da0/hal__2440__c_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="hal_2440_cfg.h"><param name="Local" value="db/d8a/hal__2440__cfg_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="hal_comm.h"><param name="Local" value="db/d03/hal__comm_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="hal_int.h"><param name="Local" value="dc/de2/hal__int_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="hal_port.h"><param name="Local" value="dc/df3/hal__port_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="src"><param name="Local" value="dir_38ba34f6c4980968848dfde88f392d11.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="hal_int_c.c"><param name="Local" value="d8/da7/hal__int__c_8c.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            </UL>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="include"><param name="Local" value="dir_20722cd55a82a3d9026445a95163fb7f.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral.h"><param name="Local" value="d1/d2c/acoral_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="autocfg.h"><param name="Local" value="db/d89/autocfg_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="type.h"><param name="Local" value="df/def/type_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="kernel"><param name="Local" value="dir_9426ae28dc1c7f57efc4423f57ec06a9.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="include"><param name="Local" value="dir_3b08da90f13217366541697f1123ca9f.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="atomic.h"><param name="Local" value="dd/d02/atomic_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="buddy.h"><param name="Local" value="d8/d3d/buddy_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="comm_thrd.h"><param name="Local" value="d7/d8d/comm__thrd_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="core.h"><param name="Local" value="d5/dc4/core_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="cpu.h"><param name="Local" value="dc/da7/cpu_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="err.h"><param name="Local" value="d6/d40/err_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="error.h"><param name="Local" value="da/d41/error_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="event.h"><param name="Local" value="dd/d20/event_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="int.h"><param name="Local" value="d3/d7e/int_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="kernel.h"><param name="Local" value="d0/daa/kernel_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="lsched.h"><param name="Local" value="d7/d8c/lsched_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="malloc.h"><param name="Local" value="d0/d4c/malloc_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mbox.h"><param name="Local" value="d7/d24/mbox_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mem.h"><param name="Local" value="d9/d9a/mem_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="message.h"><param name="Local" value="d2/d0d/message_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="mutex.h"><param name="Local" value="d0/df8/mutex_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="period_thrd.h"><param name="Local" value="d0/d63/period__thrd_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="policy.h"><param name="Local" value="d0/d30/policy_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="resource.h"><param name="Local" value="d8/d01/resource_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="sem.h"><param name="Local" value="d2/d28/sem_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="slate.h"><param name="Local" value="da/d38/slate_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="spinlock.h"><param name="Local" value="df/d63/spinlock_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="thread.h"><param name="Local" value="db/dd5/thread_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="timer.h"><param name="Local" value="d5/dd0/timer_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="src"><param name="Local" value="dir_b69e94f352c4ef1854d6e2b4b76320f1.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="core.c"><param name="Local" value="d6/de7/core_8c.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="IDLE_STACK_SIZE"><param name="Local" value="d6/de7/core_8c.html#a5a4eaedba6ce2dd34d625fb9114c8483"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_module_init"><param name="Local" value="d6/de7/core_8c.html#a1d97977864a58fa703af330f3a302e40"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_start"><param name="Local" value="d6/de7/core_8c.html#a10135fa6f262ec735c896a8da66e81d5"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="acoral_start_os"><param name="Local" value="d6/de7/core_8c.html#a3a3363d06f2959b330d0d453e26fb1e5"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="daem"><param name="Local" value="d6/de7/core_8c.html#adf9e0186399ddc4231380d8da3330a57"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="idle"><param name="Local" value="d6/de7/core_8c.html#a0c5d3cb65c76ef90bcca77de8126c293"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="init"><param name="Local" value="d6/de7/core_8c.html#a5bfde7b5020b14bdcb1c9269ab308dc5"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          </UL>
+        </UL>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="全局定义"><param name="Local" value="globals.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="全部"><param name="Local" value="globals.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="函数"><param name="Local" value="globals_func.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="宏定义"><param name="Local" value="globals_defs.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+</UL>
+</BODY>
+</HTML>
