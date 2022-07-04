@@ -1,1 +1,3 @@
 Doxygen/html
+*.log
+*.synctex.gz
