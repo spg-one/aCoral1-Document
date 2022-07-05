@@ -19,12 +19,11 @@
  \cftsetpnumwidth {\widthof {7}-1pt} 
 \contentsline {chapter}{\numberline {第三章}使用介绍}{7}{chapter.3}%
 \contentsline {section}{\numberline {3.1}配置编译环境}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}aCoral内核下载}{7}{section.3.2}%
  \cftsetpnumwidth {\widthof {8}-1pt} 
-\contentsline {section}{\numberline {3.2}aCoral内核下载}{8}{section.3.2}%
  \cftsetpnumwidth {\widthof {9}-1pt} 
  \cftsetpnumwidth {\widthof {10}-1pt} 
  \cftsetpnumwidth {\widthof {11}-1pt} 
  \cftsetpnumwidth {\widthof {12}-1pt} 
  \cftsetpnumwidth {\widthof {13}-1pt} 
- \cftsetpnumwidth {\widthof {14}-1pt} 
-\contentsline {chapter}{\numberline {第四章}相关资料}{14}{chapter.4}%
+\contentsline {chapter}{\numberline {第四章}相关资料}{13}{chapter.4}%
