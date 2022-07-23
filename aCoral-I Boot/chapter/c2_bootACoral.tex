@@ -315,23 +315,20 @@ void acoral_start(){
 这个函数将初始化aCoral的各个模块，包括中断、内存、线程等嵌入式操作系统必需的模块。
 \begin{lstlisting}
 	void acoral_module_init(){
-	/*中断系统初始化*/
-	acoral_intr_sys_init();
-	/*内存管理系统初始化*/
-	acoral_mem_sys_init();
-	/*资源管理系统初始化*/
-	acoral_res_sys_init();
-	/*驱动管理系统初始化*/
-	/*线程管理系统初始化*/
-	acoral_thread_sys_init();
-	/*时钟管理系统初始化*/
-	acoral_time_sys_init();
-	/*事件管理系统初始化,这个必须要，因为内存管理系统用到了*/
-	acoral_evt_sys_init();
-	/*消息管理系统初始化*/
-#ifdef CFG_DRIVER
-	acoral_drv_sys_init();
-#endif
+		/*中断系统初始化*/
+		acoral_intr_sys_init();
+		/*内存管理系统初始化*/
+		acoral_mem_sys_init();
+		/*线程管理系统初始化*/
+		acoral_thread_sys_init();
+		/*时钟管理系统初始化*/
+		acoral_time_sys_init();
+		/*事件管理系统初始化*/
+		acoral_evt_sys_init();
+	#ifdef CFG_DRIVER
+		/*驱动管理系统初始化*/
+		acoral_drv_sys_init();
+	#endif
 }
 \end{lstlisting}
 

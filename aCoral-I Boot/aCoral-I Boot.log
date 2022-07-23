@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 22.1) (preloaded format=xelatex 2022.7.5)  5 JUL 2022 14:10
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 22.1) (preloaded format=xelatex 2022.7.5)  23 JUL 2022 17:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -605,90 +605,6 @@ Package ifplatform Warning:
 
 )
 
-thesis-uestc.cls:62: Package fontspec Error: The font "fzsong" cannot be found.
-
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.62 ...CJKmainfont[AutoFakeBold=true]{fzsong.ttf}
-                                                  
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
-
-Package fontspec Warning: Font "fzsong" does not contain requested Script
-(fontspec)                "CJK".
-
-
-thesis-uestc.cls:62: Package fontspec Error: The font "fzsong" cannot be found.
-
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.62 ...CJKmainfont[AutoFakeBold=true]{fzsong.ttf}
-                                                  
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
-
-thesis-uestc.cls:62: Package fontspec Error: The font "fzsong" cannot be found.
-
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.62 ...CJKmainfont[AutoFakeBold=true]{fzsong.ttf}
-                                                  
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
-
-thesis-uestc.cls:62: Package fontspec Error: The font "fzsong" cannot be found.
-
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.62 ...CJKmainfont[AutoFakeBold=true]{fzsong.ttf}
-                                                  
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
-
-thesis-uestc.cls:62: Package fontspec Error: The font "fzsong" cannot be found.
-
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.62 ...CJKmainfont[AutoFakeBold=true]{fzsong.ttf}
-                                                  
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
-
 Package fontspec Info: Font family 'fzsong.ttf(0)' created for font
 (fontspec)             'fzsong.ttf' with options
 (fontspec)             [Script={CJK},AutoFakeBold={4}].
@@ -696,58 +612,13 @@ Package fontspec Info: Font family 'fzsong.ttf(0)' created for font
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"[fzsong.ttf]/OT"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"[fzsong.ttf]/OT"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[fzsong.ttf]/OT:script=hani;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[fzsong.ttf]/OT:embolden=4;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"[fzsong.ttf]/OT:embolden=4;"
-
-
-thesis-uestc.cls:65: Package fontspec Error: The font "fzhei" cannot be found.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.65   \setallmainfonts
-                       [
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
-
-thesis-uestc.cls:65: Package fontspec Error: The font "fzhei" cannot be found.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.65   \setallmainfonts
-                       [
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
-
-thesis-uestc.cls:65: Package fontspec Error: The font "fzhei" cannot be found.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.65   \setallmainfonts
-                       [
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
+(fontspec)             <->"[fzsong.ttf]/OT:script=hani;language=dflt;embolden=4
+;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 
 Package fontspec Info: Font family 'fzhei.ttf(0)' created for font 'fzhei.ttf'
@@ -756,150 +627,9 @@ Package fontspec Info: Font family 'fzhei.ttf(0)' created for font 'fzhei.ttf'
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"[fzhei.ttf]/OT"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"[fzhei.ttf]/OT"
-
-
-thesis-uestc.cls:69: Package fontspec Error: The font "times" cannot be found.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.69   ]{times.ttf}
-                   
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
-
-thesis-uestc.cls:69: Package fontspec Error: The font "times" cannot be found.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.69   ]{times.ttf}
-                   
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
-
-thesis-uestc.cls:69: Package fontspec Error: The font "times" cannot be found.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.69   ]{times.ttf}
-                   
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
-
-thesis-uestc.cls:69: Package fontspec Error: The font "timesbd.ttf" cannot be f
-ound.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.69   ]{times.ttf}
-                   
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
-
-thesis-uestc.cls:69: Package fontspec Error: The font "timesbd" cannot be found
-.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.69   ]{times.ttf}
-                   
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
-
-thesis-uestc.cls:69: Package fontspec Error: The font "timesi.ttf" cannot be fo
-und.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.69   ]{times.ttf}
-                   
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
-
-thesis-uestc.cls:69: Package fontspec Error: The font "timesi" cannot be found.
-
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.69   ]{times.ttf}
-                   
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
-
-thesis-uestc.cls:69: Package fontspec Error: The font "timesbi.ttf" cannot be f
-ound.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.69   ]{times.ttf}
-                   
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
-
-thesis-uestc.cls:69: Package fontspec Error: The font "timesbi" cannot be found
-.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.69   ]{times.ttf}
-                   
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[fzhei.ttf]/OT:language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 
 Package fontspec Info: Font family 'times.ttf(0)' created for font 'times.ttf'
@@ -910,642 +640,758 @@ f,BoldItalicFont=timesbi.ttf].
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"[times.ttf]/OT"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"[times.ttf]/OT"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"[timesbd.ttf]/OT"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"[timesbd.ttf]/OT"
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"[timesi.ttf]/OT"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"[timesi.ttf]/OT"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[times.ttf]/OT:script=latn;language=dflt;mapping=tex
+-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[timesbd.ttf]/OT:script=latn;language=dflt;mapping=t
+ex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[timesi.ttf]/OT:script=latn;language=dflt;mapping=te
+x-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"[timesbi.ttf]/OT"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"[timesbi.ttf]/OT"
-
-thesis-uestc.cls:69: Font TU/times.ttf(0)/m/n/12=[times.ttf]/OT at 12.0pt not l
-oadable: Metric (TFM) file or installed font not found.
-<to be read again> 
-                   relax 
-l.69   ]{times.ttf}
-                   
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-
-thesis-uestc.cls:69: Package fontspec Error: The font "times" cannot be found.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.69   ]{times.ttf}
-                   
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
+(fontspec)             <->"[timesbi.ttf]/OT:script=latn;language=dflt;mapping=t
+ex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 \symDigits:m:n=\mathgroup6
-
-thesis-uestc.cls:69: Package fontspec Error: The font "times" cannot be found.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.69   ]{times.ttf}
-                   
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
 \symLatin:m:n=\mathgroup7
 \symLatin:m:it=\mathgroup8
-
-thesis-uestc.cls:69: Package fontspec Error: The font "times" cannot be found.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.69   ]{times.ttf}
-                   
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
 \symGreek:m:n=\mathgroup9
 \symGreek:m:it=\mathgroup10
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-
-thesis-uestc.cls:69: Missing = inserted for \ifnum.
-<to be read again> 
-                   `
-l.69   ]{times.ttf}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-thesis-uestc.cls:69: Cannot use \XeTeXcharglyph with nullfont; not a native pla
-tform font.
-\\XeTeXDeclareMathSymbol@option ...XeTeXcharglyph 
-                                                  \XeTeXDeclareMathSymbol@sl...
-l.69   ]{times.ttf}
-                   
-(That makes 100 errors; please try again.) 
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 69.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  TU/times.ttf(0)/m/n --> TU/times.ttf(0)/bx/n on input l
+ine 69.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 69.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> TU/times.ttf(0)/m/it on input line 69.
+
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/lmr/bx/it --> TU/times.ttf(0)/m/it on input line 69
+.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 69.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> TU/times.ttf(0)/bx/n on input line 69.
+
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/lmr/bx/n --> TU/times.ttf(0)/bx/n on input line 69.
+
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  TU/times.ttf(0)/m/it --> TU/times.ttf(0)/bx/it on input
+ line 69.
+\symOperators:m:n=\mathgroup11
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 73.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  TU/times.ttf(0)/bx/n --> TU/times.ttf(0)/b/it on input 
+line 73.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  TU/times.ttf(0)/bx/n --> TU/times.ttf(0)/b/it on input 
+line 73.
+ (/home/spg/.miktex/texmfs/install/tex/latex/zhnumber/zhnumber.sty
+Package: zhnumber 2020/05/01 v2.8 Typesetting numbers with Chinese glyphs
+\l__zhnum_scale_int=\count334
+
+(/home/spg/.miktex/texmfs/install/tex/latex/zhnumber/zhnumber-utf8.cfg
+File: zhnumber-utf8.cfg 2020/05/01 v2.8 Chinese numerals with UTF8 encoding
+))
+(/home/spg/.miktex/texmfs/install/tex/latex/psnfss/pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+
+
+(/home/spg/.miktex/texmfs/install/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+
+
+(/home/spg/.miktex/texmfs/install/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(/home/spg/.miktex/texmfs/install/tex/latex/xurl/xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
+
+(/usr/local/share/miktex-texmf/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+))
+(/usr/local/share/miktex-texmf/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-06-20 v7.00s Hypertext links for LaTeX
+
+(/home/spg/.miktex/texmfs/install/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/home/spg/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/home/spg/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/home/spg/.miktex/texmfs/install/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/home/spg/.miktex/texmfs/install/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/home/spg/.miktex/texmfs/install/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/share/miktex-texmf/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+
+(/home/spg/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/home/spg/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+(/home/spg/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count335
+)
+\@linkdim=\dimen273
+\Hy@linkcounter=\count336
+\Hy@pagecounter=\count337
+
+(/usr/local/share/miktex-texmf/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-06-20 v7.00s Hyperref: PDFDocEncoding definition (HO)
+)
+(/home/spg/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count338
+
+(/usr/local/share/miktex-texmf/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-06-20 v7.00s Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4045.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4045
+.
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4408.
+\c@Hy@tempcnt=\count339
+LaTeX Info: Redefining \url on input line 4746.
+\XeTeXLinkMargin=\dimen274
+
+(/home/spg/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/home/spg/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count340
+\Field@Width=\dimen275
+\Fld@charsize=\dimen276
+Package hyperref Info: Hyper figures OFF on input line 6024.
+Package hyperref Info: Link nesting OFF on input line 6029.
+Package hyperref Info: Hyper index ON on input line 6032.
+Package hyperref Info: backreferencing OFF on input line 6039.
+Package hyperref Info: Link coloring OFF on input line 6044.
+Package hyperref Info: Link coloring with OCG OFF on input line 6049.
+Package hyperref Info: PDF/A mode OFF on input line 6054.
+
+(/usr/local/share/miktex-texmf/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count341
+\c@Item=\count342
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(/usr/local/share/miktex-texmf/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2022-06-20 v7.00s Hyperref driver for XeTeX
+
+(/home/spg/.miktex/texmfs/install/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box64
+\c@Hy@AnnotLevel=\count343
+\HyField@AnnotCount=\count344
+\Fld@listcount=\count345
+\c@bookmark@seq@number=\count346
+
+(/home/spg/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/share/miktex-texmf/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+(/home/spg/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip80
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 90.
+ (/usr/local/share/miktex-texmf/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/home/spg/.miktex/texmfs/install/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count347
+\float@exts=\toks41
+\float@box=\box65
+\@float@everytoks=\toks42
+\@floatcapt=\box66
+)
+(/home/spg/.miktex/texmfs/install/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2022/06/06 4.5 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count348
+\FV@InFile=\read2
+\FV@TabBox=\box67
+\c@FancyVerbLine=\count349
+\FV@StepNumber=\count350
+\FV@OutFile=\write3
+)
+(/home/spg/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/05/18 v4.0.3 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip81
+\f@nch@O@elh=\skip82
+\f@nch@O@erh=\skip83
+\f@nch@O@olh=\skip84
+\f@nch@O@orh=\skip85
+\f@nch@O@elf=\skip86
+\f@nch@O@erf=\skip87
+\f@nch@O@olf=\skip88
+\f@nch@O@orf=\skip89
+)
+(/home/spg/.miktex/texmfs/install/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box68
+\beforetitleunit=\skip90
+\aftertitleunit=\skip91
+\ttl@plus=\dimen277
+\ttl@minus=\dimen278
+\ttl@toksa=\toks43
+\titlewidth=\dimen279
+\titlewidthlast=\dimen280
+\titlewidthfirst=\dimen281
+)
+(/home/spg/.miktex/texmfs/install/tex/latex/appendix/appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count351
+\c@@ppsavesec=\count352
+\c@@ppsaveapp=\count353
+)
+(/home/spg/.miktex/texmfs/install/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/home/spg/.miktex/texmfs/install/tex/latex/ulem/ulem.sty
+\UL@box=\box69
+\UL@hyphenbox=\box70
+\UL@skip=\skip92
+\UL@hook=\toks44
+\UL@height=\dimen282
+\UL@pe=\count354
+\UL@pixel=\dimen283
+\ULC@box=\box71
+Package: ulem 2019/11/18
+\ULdepth=\dimen284
+)
+(/home/spg/.miktex/texmfs/install/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip93
+\enit@outerparindent=\dimen285
+\enit@toks=\toks45
+\enit@inbox=\box72
+\enit@count@id=\count355
+\enitdp@description=\count356
+)
+(/home/spg/.miktex/texmfs/install/tex/latex/algorithm2e/algorithm2e.sty
+Invalid UTF-8 byte or sequence at line 284 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 299 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 550 replaced by U+FFFD.
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count357
+\algocf@hangindent=\skip94
+
+(/home/spg/.miktex/texmfs/install/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count358
+)
+(/usr/local/share/miktex-texmf/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/home/spg/.miktex/texmfs/install/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip95
+\skiplinenumber=\skip96
+\skiprule=\skip97
+\skiphlne=\skip98
+\skiptext=\skip99
+\skiplength=\skip100
+\algomargin=\skip101
+\skipalgocfslide=\skip102
+\algowidth=\dimen286
+\inoutsize=\dimen287
+\inoutindent=\dimen288
+\interspacetitleruled=\dimen289
+\interspacealgoruled=\dimen290
+\interspacetitleboxruled=\dimen291
+\algocf@ruledwidth=\skip103
+\algocf@inoutbox=\box73
+\algocf@inputbox=\box74
+\AlCapSkip=\skip104
+\AlCapHSkip=\skip105
+\algoskipindent=\skip106
+\algocf@nlbox=\box75
+\algocf@hangingbox=\box76
+\algocf@untilbox=\box77
+\algocf@skipuntil=\skip107
+\algocf@capbox=\box78
+\algocf@lcaptionbox=\skip108
+\algoheightruledefault=\skip109
+\algoheightrule=\skip110
+\algotitleheightruledefault=\skip111
+\algotitleheightrule=\skip112
+\c@algocfline=\count359
+\c@algocfproc=\count360
+\c@algocf=\count361
+\algocf@algoframe=\box79
+\algocf@algobox=\box80
+)
+(/home/spg/.miktex/texmfs/install/tex/latex/newfloat/newfloat.sty
+Package: newfloat 2019/09/02 v1.1l Defining new floating environments (AR)
+Package newfloat Info: Unsupported document class, or \@chapter 
+(newfloat)             was already redefined by another package.
+Package newfloat Info: \@chapter = macro:[#1]#2->\algocf@original@chapter [#1]{
+#2}\addtocontents {loa}{\protect \addvspace {10\p@ }}.
+Package newfloat Info: \Hy@org@chapter = macro:[#1]#2->\NR@gettitle {#1}\NR@cha
+pter [{#1}]{#2}.
+)
+(/home/spg/.miktex/texmfs/install/tex/latex/multibib/multibib.sty
+Package: multibib 2008/12/10 v1.4 Multiple bibliographies for one document.
+\mb@biblabelwidth=\count362
+)
+(/home/spg/.miktex/texmfs/install/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/home/spg/.miktex/texmfs/install/tex/latex/everypage/everypage.sty
+Package: everypage 2020/10/17 R2.0b Hooks to run on every page
+
+
+Package everypage Warning: Functionality similar to this package has recently
+(everypage)                been implemented in LaTeX. This package is now in
+(everypage)                legacy status.
+(everypage)                Please, don't use it in new documents and packages.
+
+
+Package everypage Warning: You appear to be running a version of LaTeX
+(everypage)                providing the new functionality.
+(everypage)                Doing the best to deliver the original `everypage`
+(everypage)                interface on top of it. Strict equivalence is
+(everypage)                not possible, breakage may occur.
+(everypage)                If truly needed, Use `everypage-1x` to force the
+(everypage)                loading of an older code base.
+
+) (/home/spg/.miktex/texmfs/install/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2022/05/22 v0.5v Insert pages of external PDF documents (AM)
+
+(/usr/local/share/miktex-texmf/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count363
+\calc@Bcount=\count364
+\calc@Adimen=\dimen292
+\calc@Bdimen=\dimen293
+\calc@Askip=\skip113
+\calc@Bskip=\skip114
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count365
+\calc@Cskip=\skip115
+)
+(/home/spg/.miktex/texmfs/install/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen294
+\ESO@tempdimb=\dimen295
+)
+\AM@pagewidth=\dimen296
+\AM@pageheight=\dimen297
+\AM@fboxrule=\dimen298
+
+(/home/spg/.miktex/texmfs/install/tex/latex/pdfpages/ppxetex.def
+File: ppxetex.def 2022/05/22 v0.5v Pdfpages driver for XeTeX (AM)
+)
+\pdfpages@includegraphics@status=\count366
+\AM@pagebox=\box81
+\AM@global@opts=\toks46
+\AM@pagecnt=\count367
+\AM@toc@title=\toks47
+\c@AM@survey=\count368
+\AM@templatesizebox=\box82
+)
+(/home/spg/.miktex/texmfs/install/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip116
+\cftbeforetoctitleskip=\skip117
+\cftaftertoctitleskip=\skip118
+\cftbeforepartskip=\skip119
+\cftpartnumwidth=\skip120
+\cftpartindent=\skip121
+\cftbeforechapskip=\skip122
+\cftchapindent=\skip123
+\cftchapnumwidth=\skip124
+\cftbeforesecskip=\skip125
+\cftsecindent=\skip126
+\cftsecnumwidth=\skip127
+\cftbeforesubsecskip=\skip128
+\cftsubsecindent=\skip129
+\cftsubsecnumwidth=\skip130
+\cftbeforesubsubsecskip=\skip131
+\cftsubsubsecindent=\skip132
+\cftsubsubsecnumwidth=\skip133
+\cftbeforeparaskip=\skip134
+\cftparaindent=\skip135
+\cftparanumwidth=\skip136
+\cftbeforesubparaskip=\skip137
+\cftsubparaindent=\skip138
+\cftsubparanumwidth=\skip139
+\cftbeforeloftitleskip=\skip140
+\cftafterloftitleskip=\skip141
+\cftbeforefigskip=\skip142
+\cftfigindent=\skip143
+\cftfignumwidth=\skip144
+\c@lofdepth=\count369
+\c@lotdepth=\count370
+\cftbeforelottitleskip=\skip145
+\cftafterlottitleskip=\skip146
+\cftbeforetabskip=\skip147
+\cfttabindent=\skip148
+\cfttabnumwidth=\skip149
+)
+(/home/spg/.miktex/texmfs/install/tex/latex/caption/subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+\c@subfigure=\count371
+\c@subtable=\count372
+)
+(/home/spg/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/share/miktex-texmf/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count373
+\Gm@cntv=\count374
+\c@Gm@tempcnt=\count375
+\Gm@bindingoffset=\dimen299
+\Gm@wd@mp=\dimen300
+\Gm@odd@mp=\dimen301
+\Gm@even@mp=\dimen302
+\Gm@layoutwidth=\dimen303
+\Gm@layoutheight=\dimen304
+\Gm@layouthoffset=\dimen305
+\Gm@layoutvoffset=\dimen306
+\Gm@dimlist=\toks48
+
+(/home/spg/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
+(/home/spg/.miktex/texmfs/install/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2022/03/08 v6.0d a miscellany of footnote facilities
+\FN@temptoken=\toks49
+\footnotemargin=\dimen307
+\@outputbox@depth=\dimen308
+
+(/home/spg/.miktex/texmfs/install/tex/latex/bigfoot/perpage.sty
+Package: perpage 2014/10/25 2.0 Reset/sort counters per page
+\c@abspage=\count376
+)
+\c@pp@a@footnote=\count377
+Package footmisc Info: Declaring symbol style bringhurst on input line 695.
+Package footmisc Info: Declaring symbol style chicago on input line 703.
+Package footmisc Info: Declaring symbol style wiley on input line 712.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 723.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 743.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 764
+.
+)
+\c@pseudopage=\count378
+\@auxoutaccomplish=\write4
+
+(accomplish.aux)
+\openout4 = `accomplish.aux'.
+
+\c@theorem=\count379
+)
+(/usr/local/share/miktex-texmf/tex/latex/listings/listings.sty
+\lst@mode=\count380
+\lst@gtempboxa=\box83
+\lst@token=\toks50
+\lst@length=\count381
+\lst@currlwidth=\dimen309
+\lst@column=\count382
+\lst@pos=\count383
+\lst@lostspace=\dimen310
+\lst@width=\dimen311
+\lst@newlines=\count384
+\lst@lineno=\count385
+\lst@maxwidth=\dimen312
+
+(/usr/local/share/miktex-texmf/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count386
+\lst@skipnumbers=\count387
+\lst@framebox=\box84
+)
+(/usr/local/share/miktex-texmf/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/home/spg/.miktex/texmfs/install/tex/xelatex/xecjk/xeCJK-listings.sty
+Package: xeCJK-listings 2022/06/04 v3.8.9 xeCJK patch file for listings
+\l__xeCJK_listings_max_char_int=\count388
+\l__xeCJK_listings_flag_int=\count389
+)
+(aCoral-I Boot.aux)
+\openout1 = `"aCoral-I Boot.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
+2.
+ (/usr/local/share/miktex-texmf/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/home/spg/.miktex/texmfs/install/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: supertabular package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring ON on input line 42.
+
+(aCoral-I Boot.out) (aCoral-I Boot.out)
+\@outlinefile=\write5
+\openout5 = `"aCoral-I Boot.out"'.
+
+Package newfloat Info: Trying Plan B...
+Package newfloat Info: `float' package detected.
+
+(/home/spg/.miktex/texmfs/install/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/local/share/miktex-texmf/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
+
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=674.33032pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-18.78552pt
+* \headheight=15.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count390
+File: ./pic//logo.png Graphic file (type bmp)
+<./pic//logo.png>
+LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 44.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
+4.
+(/usr/local/share/miktex-texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
+4.
+
+(/usr/local/share/miktex-texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+44.
+
+(/usr/local/share/miktex-texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+44.
+
+(/usr/local/share/miktex-texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.5> on input line 44.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7.34996> on input line 44.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5.25> on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
+
+
+(/usr/local/share/miktex-texmf/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
+
+
+(/usr/local/share/miktex-texmf/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+]
+(misc/revision_history.tex
+
+Package fontspec Info: Font family 'fzhei.ttf(1)' created for font 'fzhei.ttf'
+(fontspec)             with options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[fzhei.ttf]/OT:script=hani;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+)
+LaTeX Font Info:    Font shape `TU/times.ttf(0)/m/sl' in size <12> not availabl
+e
+(Font)              Font shape `TU/times.ttf(0)/m/it' tried instead on input li
+ne 53.
+ [1
+
+] (aCoral-I Boot.toc
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 6.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 6.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 6.
+)
+\tf@toc=\write6
+\openout6 = `"aCoral-I Boot.toc"'.
+
+ (chapter/c1_bootloader.tex
+[2
+
+]
+Chapter 第一章.
+Package newfloat Info: Setting Plan B file extension to `lof'... on input line 
+1.
+[1
+
+
+
+] [2] [3]) (chapter/c2_bootACoral.tex [4]
+Chapter 第二章.
+File: ./pic//复位后S3C2440A的存储器映射.png Graphic file (type bmp)
+<./pic//复位后S3C2440A的存储器映射.png>
+[5
+
+]
+File: ./pic//看门狗.png Graphic file (type bmp)
+<./pic//看门狗.png>
+ [6]
+File: ./pic//中断屏蔽寄存器.png Graphic file (type bmp)
+<./pic//中断屏蔽寄存器.png>
+ [7] [8]
+File: ./pic//时钟分频控制寄存器.png Graphic file (type bmp)
+<./pic//时钟分频控制寄存器.png>
+File: ./pic//PLL 控制寄存器.png Graphic file (type bmp)
+<./pic//PLL 控制寄存器.png>
+
+Overfull \hbox (6.20741pt too wide) in paragraph at lines 110--116
+[]\TU/fzsong.ttf(0)/m/n/12 将 \TU/times.ttf(0)/m/n/12 vMPLLCON = 0x1FC0021 \TU/f
+zsong.ttf(0)/m/n/12 写 入 \TU/times.ttf(0)/m/n/12 oMPLLCON + CLK_CTL_BASE = 0x4C0
+00004
+ []
+
+[9] [10]
+File: ./pic//程序状态寄存器格式.png Graphic file (type bmp)
+<./pic//程序状态寄存器格式.png>
+ [11] [12] [13] [14] [15] [16] [17]) (chapter/c3_memoryAllocation.tex
+[18]
+Chapter 第三章.
+[19
+
+] [20]
+File: ./pic//aCoral内存分布.png Graphic file (type bmp)
+<./pic//aCoral内存分布.png>
+ [21]) [22] (aCoral-I Boot.aux)
+Package rerunfilecheck Info: File `"aCoral-I Boot".out' has not changed.
+(rerunfilecheck)             Checksum: <no file>.
+ ) 
 Here is how much of TeX's memory you used:
- 13889 strings out of 410670
- 298302 string characters out of 2819754
- 701655 words of memory out of 3000000
- 34757 multiletter control sequences out of 15000+600000
- 469825 words of font info for 31 fonts, out of 8000000 for 9000
+ 28054 strings out of 410670
+ 545863 string characters out of 2819754
+ 1115992 words of memory out of 3000000
+ 48593 multiletter control sequences out of 15000+600000
+ 495624 words of font info for 110 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 106i,0n,105p,1208b,259s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 106i,12n,105p,1208b,1070s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-No pages of output.
+Output written on aCoral-I Boot.pdf (25 pages).
