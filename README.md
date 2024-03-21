@@ -1,3 +1,6 @@
+# This Repo is Decrepted
+***
+
 # 0. [aCoral-I源码](https://github.com/spg-one/aCoral-mini2440)
 # 1. Prerequisites
 * 操作系统课程
